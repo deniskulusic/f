@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/general.css">
+    <link rel="stylesheet" type="text/css" href="./css/kontakt.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="lng-popup">
+        <div class="background"></div>
+        <div class="maxw container">
+            <div class="maxw-inner">
+                <div class="inner-title-lng">Odaberite jezik</div>
+                <div class="buttons">
+                
+                <button enabled>English</button>
+                <button disabled>Hrvatski</button>
+            </div>
+            <div class="close-lng">
+            </div>
+            </div>
+            
+    </div>
+    </div>
+    <div class="success">
+        <div class="background-s"></div>
+        <div class="maxw container">
+            <div class="maxw-inner">
+            <div class="img-holder">
+                <img src="assets/img/PaperPlane.png" alt="">
+                </div> 
+                <h4>Vaš upit je poslan</h4>
+                <div class="plarge">Uskoro ćemo vam se povratno javiti s najboljom
+                    ponudom za odabrani izlet.</div>
+                    <button class="upit-button-close" enabled>Zatvori</button>
+            </div>
+    </div>
+</div>
+<nav >
+    
+        <div class="navbar">
+    <div class="menu">
+        <div class="menu-line"></div>
+    </div>
+    <div class="logo" onClick="location.href='index.html'"><img src="assets/img/logo.svg" alt="logo"></div>
+    <div class="menu-placeholder"></div>
+    <div class="nav-right">
+        <div class="pbold" onClick="location.href='izlet.html'">Jednodnevni izlet</div>
+        <div class="pbold" onClick="location.href='adventi.html'">Adventi</div>
+        <div class="pbold" onClick="location.href='vozila.html'">Najam vozila</div>
+        <div class="pbold " onClick="location.href='kontakt.html'">Kontakt</div>
+        <div class="lng lng-desktop"> <img src="assets/img/Language.svg" alt="">HR </div>
+    </div>
+</div>
+<div class="maxw container grid">
+<div class="menu-mobile">
+    <div class="menu-text" onClick="location.href='izlet.html'"> Jednodnevni izleti</div>
+        <div class="menu-text" onClick="location.href='adventi.html'"> Adventi</div>
+        <div class="menu-text" onClick="location.href='vozila.html'">Najam vozila</div>
+        <div class="menu-text" onClick="location.href='kontakt.html'"><u class="underline-menu">Kontakt</u></div>
+    <div class="lng"><img src="assets/img/Language.svg" alt=""> HR</div>
+    <div class="lng-mobile">
+        <div class="lng-mobile-text"> <img src="assets/img/Chevron Down.svg" alt="">
+            Odaberite jezik</div>
+        <button class="lng-mobile-button">English</button>
+            <button class="lng-mobile-button">Hrvatski</button>
+    </div>
+</div>
+</div>
+</nav>
+    <div class="full-img">
+        <img src="assets/img/background.jpg" alt="">
+    </div>
+    <section class="naslov">
+        <div class="maxw container grid">
+            <div>
+               <h1><u class="underline">Želiš putovati</u> s nama? <br>
+                Zatraži personaliziranu ponudu.</h1>  
+            </div>
+        </div>
+    </section>
+    <section class="map-s">
+        <div class="maxw container grid">
+            <div> <h4>info@cagaljtours.hr</h4><div class="plarge">Naš email</div></div>
+            <div class="second"><h4>00385 21 318 568</h4><div class="plarge">Naš telefon</div></div>
+            <div><h4>Primjer adresa 27, Omiš</h4><div class="plarge">Radno vrijeme</div></div>
+            <div class="second"><h4>08-16H, pon—pet</h4><div class="plarge">Radno vrijeme</div></div>
+            <div class="map">
+                <div class="map-holder">
+                    <picture>
+            <img src="assets/img/image 81.png" alt="">
+        </picture>
+        <div class="location">
+            <img src="assets/img/Pin Location.svg" alt="">
+        </div>
+        </div>
+            </div>
+        </div>
+    </section>
+    <section class="prituzba">
+        <div class="maxw container grid">
+            <h3>Kontaktirajte nas</h3>
+            <div class="prituzba-box">
+                <h6>Izlet</h6>
+                <div class="prituzba-box-input-1">
+                    <div class="prituzba-box-dropdown">
+                    <input type="text" placeholder="Tip izleta" id="tipizleta">
+                    <span class="arrow"></span>
+                    <div class="error-text">
+                        Nevaljan tip izleta
+                    </div>
+                </div>
+                <div class="prituzba-box-dropdown">
+                    <input type="text" placeholder="Odaberi izlet" id="izlet">
+                    <span class="arrow"></span>
+                    <div class="error-text">
+                        Nevaljan izlet
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="prituzba-box-input-1">
+                    <div class="prituzba-box-dropdown">
+                    <input type="text" placeholder="Broj osoba" id="brojosoba">
+                    <span class="arrow"></span>
+                    <div class="error-text">
+                        Nevaljan broj osoba
+                    </div>
+                    
+                </div>
+                <div class="prituzba-box-dropdown">
+                    <input type="text" placeholder="Odaberi datum" id="date">
+                    <img src="assets/img/Calendar.svg" alt="">
+                    <div class="error-text">
+                        Nevaljan datum
+                    </div>
+                    
+                </div>
+                </div>
+                <h6>Osobni podatci</h6>
+                <div class="prituzba-box-input-1">
+                    <div>
+                    <Label>Ime i prezime</Label>
+                    <input type="text" placeholder="Upišite ime i prezime" id="name">
+                    <div class="error-text">
+                        Nevaljano ime
+                    </div>
+                    
+                </div>
+                <div>
+                    <Label>email</Label>
+                    <input type="text" placeholder="Upišite email" id="email" >
+                    <div class="error-text">
+                        Nevaljan email
+                    </div>
+                </div>
+                </div>
+                <div class="prituzba-box-input-2">
+                    <label>Vaša poruka</label>
+                    <textarea placeholder="Unesite vaš pisani prigovor" id="text"></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <div class="psmall">Slažem se s pravilnikom privatnosti</div>
+                </div>
+                
+                <button class="upit-button" enabled>Pošalji upit</button>
+            </div>
+        </div>
+    </section>
+    <section class="informacije">
+        <div class="maxw container grid">
+            <h3>Naše informacije</h3>
+            <div class="first"><div class="info-text">info@cagaljtours.hr</div>
+            <div class="eyebrow">NAZIV TVRTKE</div></div>
+            <div>
+            <div class="info-text">294594031023</div>
+            <div class="eyebrow">OIB</div>
+            </div>
+            <div>
+                <div class="info-text">HR 4825892 24929402</div>
+            <div class="eyebrow">IBAN</div>
+            </div>
+            <div class="first">
+                <div class="info-text">294594031023</div>
+            <div class="eyebrow">VAT BROJ</div>
+            </div>
+            <div>
+                <div class="info-text">92092092509</div>
+            <div class="eyebrow">MATIČNI BROJ</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="maxw container grid">
+        <div class="footer-top">
+            <h6>+385 91 153 6542 <br>
+            info@cagalj-tours.hr</h6>
+        </div>
+        
+            <div class="footer-middle">
+                <div class="pbold">Radno vrijeme</div>
+                <div class="psmall">
+                    Pon-Pet: 9.00-16.00 <br>
+                    Vrisovci 13, 21310 Omiš <br>
+                    Republika Hrvatska</div>
+                    <img src="assets/img/UHPA.svg" class="UHPA">
+            </div>
+            <div class="footer-middle">
+                <div class="pbold">Usluge</div>
+                <div class="psmall vlinks">
+                    <u onClick="location.href='izlet.html'">Jednodnevni izleti</u> <br> 
+                    <u onClick="location.href='jednodnevni.html'">adrenalinski izleti</u>  <br>
+                    <u onClick="location.href='adventi.html'">advent</u>  <br>
+                    <u onClick="location.href='vozila.html'"> Najam vozila</u>  <br>
+                    <u onClick="location.href='servis.html'">Servis gospodarskih vozila</u> </div>
+            </div>
+            <div class="footer-middle">
+                <div class="pbold ">Informacije</div>
+                <div class="psmall vlinks">
+                    <u onClick="location.href='faq.html'">Česta pitanja</u> <br><u onClick="location.href='onama.html'">O nama</u> <br><u onClick="location.href='prigovor.html'">Pisani prigovor</u> <br><u onClick="location.href='informacije.html'">Pravilnik privatnosti</u> <br><u onClick="location.href='informacije.html'">Pravne informacije</u>  </div>
+            </div>
+            <div class="footer-middle">
+                <div class="pbold">Prati nas</div>
+                <div class="socials">
+                    <img src="assets/img/Facebook.svg" alt="" onClick="location.href='https://www.Facebook.com/'">
+                    <img src="assets/img/Instagram.svg" alt="" onClick="location.href='https://www.Instagram.com/'">
+                    <img src="assets/img/Youtube.svg" alt="" onClick="location.href='https://www.Youtube.com/'">
+                </div>
+            </div>
+            
+        
+        <div class="footer-bottom">
+            <div class="psmall"> © 2023 Čagalj tours d.o.o. |  Putnička agencija Cencena</div>
+            <img src="assets/img/Pragmatic.svg" alt="">
+        </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="js/kontakt.js"></script>
+    <script>
+        flatpickr("#date", {});
+    </script>
+
+</body>
+</html>

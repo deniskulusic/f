@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/general.css">
+    <link rel="stylesheet" type="text/css" href="./css/visednevni_izlet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="galerija-fullscreen">
+        <div class="background-gal">
+        </div>
+        <div class="fotonum pbold">
+            <div class="num1">1</div>
+            <div>/</div>
+            <div class="num2">1</div>
+        </div>
+        <div class="close"><img src="assets/img/Close.svg" alt=""></div>
+        <div class="button-left"><img src="assets/img/arrowslider.svg" alt=""></div>
+        <div class="main">
+            <img src="assets/img/Plitvice.png"  alt="">
+           <img src="assets/img/Advent.png" alt=""><img src="assets/img/Advent.png"  alt="">
+        </div>
+        <div class="button-right"><img src="assets/img/arrowslider.svg" alt=""></div>
+    </div>
+    <div class="success">
+        <div class="background-s"></div>
+        <div class="maxw container">
+            <div class="maxw-inner">
+            <div class="img-holder">
+                <img src="assets/img/PaperPlane.png" alt="">
+                </div> 
+                <h4>Vaš upit je poslan</h4>
+                <div class="plarge">Uskoro ćemo vam se povratno javiti s najboljom
+                    ponudom za odabrani izlet.</div>
+                
+                <button class="upit-button-close" enabled>Zatvori</button>
+            </div>
+    </div>
+</div>
+<div class="lng-popup">
+    <div class="background"></div>
+    <div class="maxw container">
+        <div class="maxw-inner">
+            <div class="inner-title-lng">Odaberite jezik</div>
+            <div class="buttons">
+            
+            <button enabled>English</button>
+            <button disabled>Hrvatski</button>
+        </div>
+        <div class="close-lng">
+        </div>
+        </div>
+        
+</div>
+</div>
+<nav >
+    
+        <div class="navbar">
+    <div class="menu">
+        <div class="menu-line"></div>
+    </div>
+    <div class="logo" onClick="location.href='index.html'"><img src="assets/img/logo.svg" alt="logo"></div>
+    <div class="menu-placeholder"></div>
+    <div class="nav-right">
+        <div class="pbold" onClick="location.href='izlet.html'">Jednodnevni izlet</div>
+            <div class="pbold" onClick="location.href='adventi.html'">Adventi</div>
+            <div class="pbold" onClick="location.href='vozila.html'">Najam vozila</div>
+            <div class="pbold " onClick="location.href='kontakt.html'">Kontakt</div>
+        <div class="lng lng-desktop"> <img src="assets/img/Language.svg" alt="">HR </div>
+    </div>
+</div>
+<div class="maxw container grid">
+<div class="menu-mobile">
+    <div class="menu-text" onClick="location.href='izlet.html'"> Jednodnevni izleti</div>
+    <div class="menu-text" onClick="location.href='adventi.html'"> Adventi</div>
+    <div class="menu-text" onClick="location.href='vozila.html'">Najam vozila</div>
+    <div class="menu-text" onClick="location.href='kontakt.html'">Kontakt</div>
+    <div class="lng"><img src="assets/img/Language.svg" alt=""> HR</div>
+    <div class="lng-mobile">
+        <div class="lng-mobile-text"> <img src="assets/img/Chevron Down.svg" alt="">
+            Odaberite jezik</div>
+        <button class="lng-mobile-button">English</button>
+            <button class="lng-mobile-button">Hrvatski</button>
+    </div>
+</div>
+</div>
+</nav>
+    <section class="galery">
+        <div class="grid container maxw">
+            <h2>Nacionalni park Krka <br class="map-mobile">
+                i razgledavanje šibenika</h2>
+            <div class="flex">
+                <div class="galery-big">
+                    <div>
+                        <picture>
+                            <img src="assets/img/Krka.png" alt="">
+                        </picture>
+                    </div>
+                    
+                    <button enabled class="galery-open"> Sve fotografije</button>
+                </div>
+                <div class="galery-small">
+                    <div class="galery-small-img">
+                        <div>
+                            <picture>
+                                <img src="assets/img/Krka3.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="galery-small-img">
+                        <div>
+                            <picture>
+                                <img src="assets/img/Krka2.png" alt="">
+                            </picture>
+                        </div>
+                        <button enabled class="galery-open"> Sve fotografije</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="maxw container grid">
+            <div class="full-page">
+            <div class="icons full-page-grid">
+                <div>
+                    <img src="assets/img/Calendar.svg" alt="">
+                    <div>
+                        <div class="pbold">Jednodnevni</div>
+                        <div class="psmall">Vrsta izleta</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/Bus1.svg" alt="">
+                    <div>
+                        <div class="pbold">Autobus</div>
+                        <div class="psmall">Vrsta prijevoza</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/meta.svg" alt="">
+                    <div>
+                        <div class="pbold">Grad Omiš</div>
+                        <div class="psmall">Mjesto polaska</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/streamlinehq-calendar-interface-essential-24 6.svg" alt="">
+                    <div>
+                        <div class="pbold">08:00h</div>
+                        <div class="psmall">Vrijeme polaska</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/streamlinehq-calendar-interface-essential-24 6.svg" alt="">
+                    <div>
+                        <div class="pbold">17:00h</div>
+                        <div class="psmall">Vrijeme povratka</div>
+                    </div>
+                </div>
+            </div>
+            <div class="o-izletu full-page-grid">
+                <h4>O izletu</h4>
+                <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat. Nulla sollicitudin sem sed tempor sagittis. Aliquam varius, urna eu porta tincidunt, sapien erat cursus quam, eget tincidunt dui tellus sit amet tortor. Sed nulla nunc, ultricies non justo sit amet, tempus ultricies sapien. Morbi eget ex leo. Morbi luctus nisl in pretium dapibus. Duis aliquam quis purus eget placerat.</div>
+                <div class="pbold">Napomena</div>
+                <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus.</div>
+                <div class="pbold">
+                    Uključeno u cijenu
+                </div>
+                <div class="check">
+                    <img src="assets/img/Checkmark.svg" alt="">
+                    <div class="psmall">Lorem ipsum dolor sit amet, consectetur</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Checkmark.svg" alt="">
+                    <div class="psmall">Donec at dignissim est, id venenatis</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Checkmark.svg" alt="">
+                    <div class="psmall">Maecenas scelerisque nulla vitae</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Checkmark.svg" alt="">
+                    <div class="psmall">Sed non mollis orci, vitae tempus</div>
+                </div>
+                <div class="pbold">
+                    Nije uključeno u cijenu
+                </div>
+                <div class="check">
+                    <img src="assets/img/Warning.svg" alt="">
+                    <div class="psmall">Lorem ipsum dolor sit amet, consectetur</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Warning.svg" alt="">
+                    <div class="psmall">Donec at dignissim est, id venenatis</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Warning.svg" alt="">
+                    <div class="psmall">Maecenas scelerisque nulla vitae</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Warning.svg" alt="">
+                    <div class="psmall">Sed non mollis orci, vitae tempus</div>
+                </div>
+                <div class="pbold">
+                    Dodatne opcije
+                </div>
+                <div class="check">
+                    <img src="assets/img/Additional.svg" alt="">
+                    <div class="psmall">Lorem ipsum dolor sit amet, consectetur</div>
+                </div>
+                <div class="check">
+                    <img src="assets/img/Additional.svg" alt="">
+                    <div class="psmall">Donec at dignissim est, id venenatis</div>
+                </div>
+            </div>
+            <div class="raspored full-page-grid">
+                <h4>Opis izleta</h4>
+                <div class="psmall jednodnevni">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.
+<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.</div>
+            </div>
+            <div class="placanje full-page-grid">
+                <h4>Plaćanje</h4>
+                <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.</div>
+            </div>
+            <div class="nositi full-page-grid nositi-grid">
+                <h4>što ponijeti</h4>
+                <div>
+                    <img src="assets/img/power.svg" alt="">
+                    <div class="pmedium">Power Bank</div>
+                </div>
+                <div>
+                    <img src="assets/img/Jacket.svg" alt="">
+                    <div class="pmedium">Lagana jakna</div>
+                </div>
+                <div>
+                    <img src="assets/img/boot.svg" alt="">
+                    <div class="pmedium">Obuća za pješačenje</div>
+                </div>
+                <div>
+                    <img src="assets/img/water.svg" alt="">
+                    <div class="pmedium">Voda</div>
+                </div>
+                <div>
+                    <img src="assets/img/shirt.svg" alt="">
+                    <div class="pmedium">Odjeća za presvlaku</div>
+                </div>
+                <div>
+                    <img src="assets/img/passport.svg" alt="">
+                    <div class="pmedium">Putovnica ili osobna</div>
+                </div>
+            </div>
+            <div class="lokacija full-page-grid">
+                <h4>Lokacija polazišta</h4>
+                <div class="plarge">mjesto okupljanja</div>
+                <div class="map">
+                    <div class="map-holder">
+                        <picture>
+                <img src="assets/img/image 80.png" alt="">
+            </picture>
+            <div class="location">
+                <img src="assets/img/Pin Location.svg" alt="">
+            </div>
+            </div>
+                </div>
+                
+                <div class="map-information">
+                    <div class="pbold">Primjer adresa 27, Omiš</div>
+                    <div class="plarge">Adresa </div>
+                </div>
+                
+                
+                
+            </div>
+            <div class="acord full-page-grid">
+                <h4>Često potavljena pitanja</h4>
+                <div class="plarge">Saznaj sva pitanja i uvjete za jednokratan najam vozila</div>
+                <div class="acordation-grid">
+                    <div class="faq">
+                        <div class="faq-heading">
+                        <div class="pbold">Lorem ipsum dolor sit amet</div>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="faq-content psmall">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor tempus euismod. Curabitur commodo porttitor elit, eget accumsan felis semper ut. Aliquam maximus mauris eget augue feugiat eleifend. Vestibulum posuere, velit quis posuere tincidunt, eros lectus molestie enim, in mattis neque massa eu odio. Nam pharetra cursus orci vitae malesuada. Donec sodales molestie metus a viverra. Nullam sit amet imperdiet massa. Morbi varius posuere nisl eget pulvinar. Sed bibendum, risus eu molestie fermentum, erat dui congue eros, eget iaculis tellus lacus eu est. Fusce at nisi feugiat, pellentesque ex sit amet, rutrum tellus. Nullam volutpat nulla sit amet est scelerisque euismod. Fusce eleifend felis ut est lacinia sagittis tincidunt nec sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq-heading">
+                        <div class="pbold">Lorem ipsum dolor sit amet</div>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="faq-content psmall">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor tempus euismod. Curabitur commodo porttitor elit, eget accumsan felis semper ut. Aliquam maximus mauris eget augue feugiat eleifend. Vestibulum posuere, velit quis posuere tincidunt, eros lectus molestie enim, in mattis neque massa eu odio. Nam pharetra cursus orci vitae malesuada. Donec sodales molestie metus a viverra. Nullam sit amet imperdiet massa. Morbi varius posuere nisl eget pulvinar. Sed bibendum, risus eu molestie fermentum, erat dui congue eros, eget iaculis tellus lacus eu est. Fusce at nisi feugiat, pellentesque ex sit amet, rutrum tellus. Nullam volutpat nulla sit amet est scelerisque euismod. Fusce eleifend felis ut est lacinia sagittis tincidunt nec sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq-heading">
+                        <div class="pbold">Lorem ipsum dolor sit amet</div>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="faq-content psmall">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor tempus euismod. Curabitur commodo porttitor elit, eget accumsan felis semper ut. Aliquam maximus mauris eget augue feugiat eleifend. Vestibulum posuere, velit quis posuere tincidunt, eros lectus molestie enim, in mattis neque massa eu odio. Nam pharetra cursus orci vitae malesuada. Donec sodales molestie metus a viverra. Nullam sit amet imperdiet massa. Morbi varius posuere nisl eget pulvinar. Sed bibendum, risus eu molestie fermentum, erat dui congue eros, eget iaculis tellus lacus eu est. Fusce at nisi feugiat, pellentesque ex sit amet, rutrum tellus. Nullam volutpat nulla sit amet est scelerisque euismod. Fusce eleifend felis ut est lacinia sagittis tincidunt nec sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </div>
+                    </div>
+            
+                </div>
+            </div>
+            </div>
+            <div class="upit">
+                <div class="mobile-upit">
+                    <div>
+                <div class="price">
+                    <h5> 32€ / 241kn</h5>
+                   
+                </div>
+                <div class="psmall  po-osobi">Po osobi</div>
+            </div>
+            <div class="upit-up">
+                <div class="pbold">Pošalji upit</div>
+                <span class="arrow-upit"></span>
+            </div>
+            </div>
+                <div class="two-input">
+                    <div class="two-input-box">
+                        <div>
+                            <label>Datum</label>
+                            <input type="text" placeholder="Odaberi" id="date">
+                            <div class="error-text">
+                                Nevaljan datum
+                            </div>
+                        </div>
+                        <img src="assets/img/Calendar.svg" alt="">
+                    </div>
+                    <div class="two-input-box">
+                        <div>
+                            <label>Broj osoba</label>
+                            <input type="text" placeholder="Odaberi" id="brojosoba">
+                            <div class="error-text">
+                                Nevaljan broj osoba
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input">
+                    <label>Ime i prezime</label>
+                    <input type="text" placeholder="Upišite ime i prezime" id="name">
+                    <div class="error-text">
+                        Nevaljano ime
+                    </div>
+                </div>
+                <div class="input">
+                    <label>Email</label>
+                    <input type="text" placeholder="Upiši svoj email" id="email">
+                    <div class="error-text">
+                        Nevaljan email
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <div class="psmall">Slažem se s pravilnikom privatnosti</div>
+                </div>
+                
+                <button class="upit-button" enabled> Pošalji upit</button>
+        </div>
+        <div class="upit-background">
+
+        </div>
+    </section>
+    <footer>
+        <div class="maxw container grid">
+        <div class="footer-top">
+            <h6>+385 91 153 6542 <br>
+            info@cagalj-tours.hr</h6>
+        </div>
+        
+            <div class="footer-middle">
+                <div class="pbold">Radno vrijeme</div>
+                <div class="psmall">
+                    Pon-Pet: 9.00-16.00 <br>
+                    Vrisovci 13, 21310 Omiš <br>
+                    Republika Hrvatska</div>
+                    <img src="assets/img/UHPA.svg" class="UHPA">
+            </div>
+            <div class="footer-middle">
+                <div class="pbold">Usluge</div>
+                <div class="psmall vlinks">
+                    <u onClick="location.href='izlet.html'">Jednodnevni izleti</u> <br> 
+                    <u onClick="location.href='jednodnevni.html'">adrenalinski izleti</u>  <br>
+                    <u onClick="location.href='adventi.html'">advent</u>  <br>
+                    <u onClick="location.href='vozila.html'"> Najam vozila</u>  <br>
+                    <u onClick="location.href='servis.html'">Servis gospodarskih vozila</u> </div>
+            </div>
+            <div class="footer-middle">
+                <div class="pbold ">Informacije</div>
+                <div class="psmall vlinks">
+                    <u onClick="location.href='faq.html'">Česta pitanja</u> <br><u onClick="location.href='onama.html'">O nama</u> <br><u onClick="location.href='prigovor.html'">Pisani prigovor</u> <br><u onClick="location.href='informacije.html'">Pravilnik privatnosti</u> <br><u onClick="location.href='informacije.html'">Pravne informacije</u>  </div>
+            </div>
+            <div class="footer-middle">
+                <div class="pbold">Prati nas</div>
+                <div class="socials">
+                    <img src="assets/img/Facebook.svg" alt="" onClick="location.href='https://www.Facebook.com/'">
+                    <img src="assets/img/Instagram.svg" alt="" onClick="location.href='https://www.Instagram.com/'">
+                    <img src="assets/img/Youtube.svg" alt="" onClick="location.href='https://www.Youtube.com/'">
+                </div>
+            </div>
+            
+        
+        <div class="footer-bottom">
+            <div class="psmall"> © 2023 Čagalj tours d.o.o. |  Putnička agencija Cencena</div>
+            <img src="assets/img/Pragmatic.svg" alt="">
+        </div>
+    </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="js/jednodnevni_izlet.js"></script>
+    <script>
+        flatpickr("#date", {});
+    </script>
+
+</body>
+</html>

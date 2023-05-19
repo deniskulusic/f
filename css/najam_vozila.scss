@@ -1,0 +1,1034 @@
+$Orange:#FC6536;
+$DarkBlue:#0F141E;
+$White:#FFFFFF;
+$LightOrange:#FFEBD9;
+$MidnightGrey:#6F7785;
+$MiddleGrey:#626262;
+$MediumGrey:#F1F1F1;
+$LightGrey:#F8F8F8;
+nav{
+    -webkit-transition: background-color 0.2s ease-in; /* Safari */
+          transition: background-color 0.2s ease-in;
+  }
+  .menu-active{
+    background-color: $White !important;
+  }
+.naslov{
+    overflow: hidden;
+    padding-top: 264px;
+    padding-bottom: 189px;
+    z-index: -1;
+    background-color: $LightGrey;
+    h1{
+        grid-column: span 6;
+    }
+    .pspread{
+        grid-column: 8/13;
+        margin-top: 8px;
+    }
+}
+.u-naslov{
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+}
+.u-naslov::before{
+    content: "";
+  position: absolute;
+  height: 16px;
+  background: $Orange;
+  z-index: -1;
+  width: 100%;
+  top:100%;
+  margin-top: -19px;
+}
+.naslov-img-1{
+    position: relative;
+    grid-column: span 12;
+    margin-top: 120px;
+}
+.naslov-img-1-holder{
+    padding-top: 29.7%;
+}
+.naslov-img-2{
+    position:absolute;
+    width: 44.59%;
+    right: -62px;
+    bottom: -93px;
+}
+.naslov-img-2-holder{
+    padding-top: 49.73%;
+}
+.front-car-img{
+    margin-top: 120px;
+    position: relative;
+    grid-column: span 9;
+    margin-left: 70px;
+}
+.front-car{
+    grid-column: span 3;
+    margin-top: 104px;
+    h3{
+        margin-top: 56px;
+    }
+    .plarge{
+        color:$MiddleGrey
+    }
+}
+.front-car-img-holder{
+    padding-top: 77.27%;
+}
+.vozni-park{
+    margin-top: 160px;
+    h2{
+        grid-column: span 12;
+        margin-bottom: 24px;
+    }
+    .u-naslov::before{
+        margin-top: -15px;
+    }
+}
+.vozni-park-element{
+    margin-top: 24px;
+    grid-column: span 12;
+    background-color: $LightGrey;
+    border-radius: 16px;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 136px;
+    .psmall{
+        color: $MiddleGrey;
+    }
+    img{
+        width: auto;
+        height: 71px;
+        margin-right: 72px;
+        -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    }
+    div{
+        display: flex;
+        align-items: center;
+        div{
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+        }
+    }
+    button{
+        height: fit-content;
+    }
+}
+.pouzdanost
+{
+    margin-top: 240px;
+    .u-naslov::before{
+        margin-top: -15px;
+    }
+    h2{
+        grid-column: span 12;
+        margin-bottom: 64px;
+    }
+    .plarge{
+        color: $MiddleGrey;
+        grid-column: 2/span 6;
+        margin-top: 80px;
+    }
+    img{
+        border-radius: 16px;
+    }
+}
+.pouzdanost-mobile{
+    display: none;
+}
+.pouzdanost-large{
+    grid-column: span 8;
+    position: relative;
+}
+.pouzdanost-large-holder{
+    padding-top: 62.85%;
+}
+.pouzdanost-small{
+    grid-column: span 4;
+    position: relative;
+}
+.pouzdanost-small-holder{
+    padding-top: 132%;
+}
+.pouzdanost-text{
+    grid-column: span 4;
+    color: $MiddleGrey;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+margin-top: 80px;
+}
+.ponuda{
+    margin-top: 240px;
+    margin-bottom: 256px;
+    h3{
+        text-align: center;
+        grid-column: span 12;
+        margin-bottom: 8px;
+    }
+    div{
+        div{
+            background-color: $LightGrey;
+            border-radius: 16px;
+            grid-column: span 5;
+            margin-top: 40px;
+            padding: 16px;
+            display: flex;
+            column-gap: 24px;
+            align-items: center;
+            div{
+                margin-top: 0;
+                flex-direction: column;
+                align-items: start;
+                row-gap: 8px;
+                padding: 0;
+            }
+        }
+        .first{
+            grid-column: 2/span 5;
+        }
+    }
+    img{
+        height: 72px;
+        width: auto;
+        
+    }
+}
+.two-img{
+    grid-column: span 6;
+    position: relative;
+}
+.two-img-holder{
+    padding-top: 73.06%;
+   
+picture{
+    
+    overflow: hidden;
+    border-radius: 16px;
+    img{
+        transition: 1s;
+        transform: scale(1);
+    }
+}
+    
+        
+        
+    
+}
+.two-img:hover{
+    picture{
+        
+        img{
+            transform: scale(1.1);
+        }
+    }
+    .text{
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+}
+.text {
+    position: absolute;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.03em;
+
+left: 56px;
+margin-top:calc(-32px - 48px);
+z-index: 2;
+color: $White;
+}
+.istrazi{
+    margin-top: 240px;
+}
+.istrazi-img{
+grid-column: span 6;
+display: flex;
+align-items: center;
+
+}
+.istrazi-img-center{
+    position: relative;
+    width: 100%;
+}
+.istrazi-img-holder{
+    padding-top: 122.58%;
+    img{
+        border-radius: 16px;
+    }
+}
+.istrazi-text{
+    grid-column: 8/13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .pspread{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+}
+.underline-dij::before{
+  height: 16px;
+  top:100%;
+  margin-top: -18px;
+  width: 100%;
+}
+.close-lng-v{
+    right: 16px;
+    top: 16px;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: $LightGrey;
+    border-radius: 100%;
+    img{
+        height: 16px;
+    }
+}
+.close-lng-v::before, .close-lng-v::after {
+    margin-left: 0 !important;
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 1.5px;
+    background-color: $DarkBlue;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .close-lng-v::before {
+    transform: translateY(-5px);
+    transform: rotate(45deg) ;
+  }
+  
+  .close-lng-v::after {
+    transform: translateY(5px);
+    transform: rotate(-45deg) ;
+  }
+.vozila-popup{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 11;
+    
+    .maxw-inner{
+        width: 100%;
+        background-color: $White;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+    }
+    .maxw{
+        z-index: 12;
+        width: 510px;
+        margin: auto;
+        display: flex;
+
+      }
+      h4{
+       margin-top: 48px;
+       padding-left:48px;
+      }
+     .close-lng-v{
+        right: 24px;
+        top:24px;
+     }
+     .pmedium{
+        margin-top: 8px;
+     }
+     .radio{
+        display: flex;
+        margin-bottom: 8px;
+        
+        gap: 32px;
+        div{
+            display: flex;
+            align-items: center;
+        }
+        label{
+            margin-top: 0;
+            padding-left: 0;
+            margin-left: 8px;
+        }
+     }
+}
+.background-v{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $DarkBlue;
+    opacity: 80%;
+}
+
+  input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 22px;
+    height: 22px;
+    border: 1px solid $MiddleGrey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input[type="radio"]::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: $Orange;
+  }
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+.vozila-input{
+    overflow: hidden;
+    overflow-y:scroll ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    width: 414px;
+    height: 480px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.button-div{
+    width: 100%;
+    height: 120px;
+    background-color: $White;
+    box-shadow: 0px -7px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        width: 446px;
+    }
+}
+.flatpickr-calendar{
+    font-family: 'Manrope';
+    .selected{
+        background: $Orange !important;
+        border-color: $Orange !important;
+    }
+}
+.two-input{
+    display: flex;
+    background-color: $LightGrey;
+    border-radius: 8px;
+
+    input{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+.two-input-box{
+    display:flex;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border-left: $White solid 1px;
+    div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 16px;
+    
+            .error-text{
+                font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            /* identical to box height, or 133% */
+            top:calc(100% + 8px);
+            /* Primary/Orange */
+            position: absolute ;
+            width: auto ;
+            display: none;
+            padding: 0px ;
+            margin: 0px;
+            background-color: transparent ;
+            border-radius: 4px;
+            color: #FC6536;
+            }
+        
+       
+    
+  
+      
+        
+    }
+    div[error] {
+        .error-text{
+        display: flex;
+        left: -16px;
+        }
+        label{
+            color:#FC6536
+        }
+        input::placeholder{
+            color:#FC6536;
+            opacity: 1;
+        }}
+    div:first-of-type{
+        border-left: none;
+    }
+    
+    img{
+        margin-right: 16px;
+    }
+    input::placeholder {
+    color:$MiddleGrey;
+    }
+}
+.two-input-box:first-of-type{
+    border-left: none;
+}
+input::placeholder ,textarea::placeholder{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: $DarkBlue;
+opacity: 0.5;
+}
+input, textarea{
+    border: 0px; 
+    padding: 0;
+    background-color: $LightGrey;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.prituzba-box-input-2{
+    padding-left: 16px;
+    padding-top: 16px;
+    display: flex;
+    height: px;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: $LightGrey;
+
+    label{
+        padding: 0;
+        color: #0F141E;
+    }
+    textarea{
+        color: #0F141E;
+        height: 52px;
+        resize: vertical;
+        margin: 0;
+        font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: $DarkBlue;
+    }
+    textarea::placeholder{
+        opacity: 0.2;
+    }
+}
+.prituzba-box-input-2:last-of-type{
+    margin-bottom: 24px;
+}
+label{
+    z-index: 2;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 16px;
+color: $MiddleGrey;
+opacity: 0.8;
+}
+.arrow::before,
+.arrow::after {
+    
+  content: '';
+  display: block;
+  width: 16px;
+  border-radius: 50px;
+  height: 2px;
+  background: $DarkBlue;
+  transition: 0.3s ease-in-out;
+}
+
+.arrow::before {
+  transform: rotate(45deg);
+  
+  
+}
+
+.arrow::after {
+    margin-top: -2px;
+    margin-left: 10px;
+  transform: rotate(-45deg);
+}
+.input{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: $LightGrey;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    label{
+        margin-left: 16px;
+        color:$DarkBlue
+    }
+    input{
+        font-family: "Manrope";
+font-style: normal;
+font-weight: 500;
+        margin-left: 16px;
+        height: 24px;
+        padding: 0;
+        font-size: 16px;
+        line-height: 24px;
+        color: $DarkBlue;
+    }
+    div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .error-text{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        top:calc(100% + 8px);
+        /* Primary/Orange */
+        position: absolute ;
+        width: auto ;
+        display: none;
+        padding: 0px ;
+        margin: 0px;
+        background-color: transparent ;
+        border-radius: 4px;
+        color: #FC6536;
+        }
+    }
+   
+
+div[error] {
+    .error-text{
+    display: flex;
+    
+    }
+    label{
+        color:#FC6536
+    }
+    input::placeholder{
+        color:#FC6536;
+        opacity: 1;
+    }
+  }
+    span{
+        margin-right: 16px;
+
+    }
+    .arrow::after{
+        width: 10px;
+
+    }
+    .arrow::before{
+        width: 10px;
+        margin-left: 3px;
+    }
+}
+
+.active-vozila{
+    display: flex;
+}
+
+@media only screen and (max-width: 950px) {
+    .naslov{
+        h1{
+            grid-column:2/span 10;
+        }
+        .pspread{
+            grid-column: 2/span 10;
+        }
+    }
+    .two-img{
+        grid-column: 2/span 10;
+        margin-top: 40px;
+    }
+    .istrazi-img{
+        grid-column: 2/ span 10;
+    }
+    .istrazi-text{
+        margin-top: 40px;
+        grid-column: 2/ span 10;
+    }
+    .istrazi{
+        margin-top: 104px;
+    }
+    .istrazi-img-holder{
+        padding-top: 70%;
+    }
+    .ponuda {
+        div{
+        div {
+        grid-column: span 6;
+    }
+    .first{
+        grid-column: span 6;
+      }
+    }
+   
+    
+    }
+    .pouzdanost{
+        margin-top: 180px;
+        .plarge{
+            grid-column: 2/span 10;
+        }
+        
+    }
+    .pouzdanost-text{
+        grid-column: 2/span 10;
+    }
+    .front-car {
+  grid-column: span 12;
+}
+.front-car-img {
+  grid-column: 2/span 10;
+  margin-top: 40px;
+}
+.vozni-park-element{
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 200px;
+    button{
+        margin-top: 16px;
+    }
+}
+.pouzdanost-large{
+    grid-column: 2/span 10;
+}
+.pouzdanost-small{
+    grid-column: 2/span 10;
+    margin-top: 24px;
+}
+.pouzdanost-small-holder{
+    padding-top: 100%;
+}
+.pouzdanost-large-holder{
+    padding-top: 100%;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    .pouzdanost-large{
+        grid-column: span 12;
+    }
+    .pouzdanost-small{
+        grid-column: span 12;
+        margin-top: 24px;
+    }
+    .pouzdanost{
+        margin-top: 104px;
+        .plarge{
+            grid-column: span 12;
+        }
+        
+    }
+    .pouzdanost-text{
+        grid-column: span 12;
+    }
+    .naslov{
+    padding-bottom: 104px;
+    padding-top: 180px;
+        h1{
+            grid-column:span 12;
+        }
+        .pspread{
+            margin-top: 48px;
+            grid-column: span 12;
+        }
+    }
+    .naslov-img-1{
+        margin-top: 64px;
+    }
+    .naslov-img-2 {
+  right: -30px;
+  bottom: -60px;
+}
+    .two-img{
+        grid-column: span 2;
+        
+    }
+    .bus{
+        grid-column: span 2;
+        height: 580px;
+    }
+    .istrazi-img{
+        grid-column: span 2;
+    }
+    .istrazi-text{
+        margin-top: 40px;
+        grid-column:span 2;
+    }
+    .u-naslov::before{
+        height: 10px;
+        margin-top: -10px;
+      } 
+      .vozni-park{
+        .u-naslov::before{
+            margin-top: -10px;
+        }
+    }
+    .pouzdanost{
+        .u-naslov::before{
+            margin-top: -10px;        }
+    }
+      .ponuda {
+        margin-bottom: 104px;
+        margin-top: 104px;
+        div{
+            .first{
+grid-column: span 12;
+            }
+         div {
+  grid-column: span 12;
+}}}
+.vozni-park-element{
+    height: 288px;
+    img{
+        margin-bottom: 16px;
+    }
+}
+.vozni-park-element div{
+    flex-direction: column;
+    align-items: start;
+}
+.front-car-img{
+    grid-column: span 12;
+    margin-left:0;
+}
+.pouzdanost-mobile{
+    display: block;
+}
+.pouzdanost-desktop{
+    display: none;
+}
+.vozila-popup{
+    width: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 0px;
+    overflow: hidden;
+    transition: height 1s;
+    align-items: end;
+    position: fixed;
+    z-index: 11;
+    .container{
+        padding: 0;
+    }
+    .maxw-inner{
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .maxw{
+
+        width: 100%;
+        margin: 0;
+
+      }
+      h4{
+        margin-top: 24px;
+        padding-left:24px;
+       }
+      .close-lng-v{
+         background-color: $White;
+      }
+
+      .close-lng-v::after{
+    height: 2px;
+    border-radius: 16px;
+    }
+    .close-lng-v::before{
+        height: 2px;
+        margin-left: -21px !important;
+        border-radius: 16px;
+    }
+    .vozila-input{
+        padding-left: 24px;
+        padding-right: 24px;
+        width: calc(100% - 48px);
+        height: 488px;
+    }
+}
+.active-vozila{
+    display: flex;
+    height: 100vh;
+}
+}
+@media only screen and (max-width: 450px) {
+    .naslov-img-1{
+        margin-top: 0px;
+        position: absolute;
+        width: calc(100% + 48px);
+        margin-left: -24px;
+        left: 0;
+        margin-top: 32px;
+        height: 328px;
+    }
+    .naslov{
+        div{
+            position: relative;
+        }
+        picture{
+            img{
+                -o-object-position: left;
+object-position: left;
+            }
+        }
+    }
+    .naslov-img-2 {
+        left:50%;
+        top: -90px;
+        width: 80%;
+        
+        
+}
+.naslov-img-1-holder{
+    padding-top: 66.66%;
+    
+}
+    .two-img-holder{
+        padding-top: 139.44%;
+    }
+    .text{
+        left: 32px;
+        margin-top: 0;
+        bottom: 32px;
+        width: 50%;
+    }
+    .istrazi-img-holder{
+        padding-top: 139.44%;
+    }
+    .istrazi-text{ .pspread {
+        margin-top: 8px;
+}}
+
+.naslov{
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+
+.front-car{
+    margin-top: 8px;
+    h3{
+        margin-top: 32px;
+    }
+}
+.front-car-img{
+    width: calc(100% + 48px);
+    margin-left: -24px;
+}
+.front-car-img-holder{
+    padding-top: 110.93%;
+}
+.vozni-park{
+    margin-top: 104px;
+    h2{
+        margin-bottom: 20px;
+    }
+    
+}
+.vozni-park-element{
+    img{
+        margin-bottom: 32px;
+    }
+}
+.pouzdanost{
+    h2{
+        margin-bottom: 40px;
+    }
+    .plarge{
+        margin-top: 40px;
+    }
+    .pouzdanost-text{
+        margin-top: 32px;
+    }
+}
+.pouzdanost-large-holder, .pouzdanost-small-holder{
+    padding-top: 139.44%;
+}
+.ponuda{
+    margin-bottom: 64px;
+    h3{
+        margin-bottom: 16px;
+    }
+    div{
+        div{
+            margin-top: 24px;
+        }
+    }
+}
+.button-div{
+    button{
+        width: 327px;
+    }
+    height: 112px;
+}
+.two-input{
+    flex-direction: column;
+    gap: 16px;
+    background-color: $White;
+}
+.two-input-box{
+    width: 100%;
+    border: 0;
+    background-color: $LightGrey;
+    border-radius: 8px;
+}
+}

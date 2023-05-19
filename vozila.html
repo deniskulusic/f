@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/general.css">
+        <link rel="stylesheet" type="text/css" href="./css/najam_vozila.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="success">
+        <div class="background-s"></div>
+        <div class="maxw container">
+            <div class="maxw-inner">
+            <div class="img-holder">
+                <img src="assets/img/PaperPlane.png" alt="">
+                </div> 
+                <h4>Vaš upit je poslan</h4>
+                <div class="plarge">Uskoro ćemo vam se povratno javiti s najboljom
+                    ponudom za odabrani izlet.</div>
+                    <button class="upit-button-close" enabled>Zatvori</button>
+            </div>
+    </div>
+</div>
+    <div class="lng-popup">
+        <div class="background"></div>
+        <div class="maxw container">
+            <div class="maxw-inner">
+                <div class="inner-title-lng">Odaberite jezik</div>
+                <div class="buttons">
+                
+                <button enabled>English</button>
+                <button disabled>Hrvatski</button>
+            </div>
+            <div class="close-lng">
+            </div>
+            </div>
+            
+    </div>
+    </div>
+    <div class="vozila-popup">
+        <div class="background-v"></div>
+        <div class="maxw">
+            <div class="maxw-inner">
+            <h4>Najam vozila</h4>
+            <div class="vozila-input">
+            <div class="pmedium">Tip korisnika</div>
+            <div class="radio">
+                <div>
+                <input type="radio" name="fav_language" >
+                <label for="html" class="pmedium">Privatna osoba</label>
+            </div>
+            <div>
+                <input type="radio" name="fav_language" >
+                <label class="pmedium">Pravna osoba</label>
+                
+            </div>
+            </div>
+            
+                <div class="input">
+                    <div>
+                    <label>Ime i prezime</label>
+                    <input type="text" placeholder="Upišite ime i prezime" id="name">
+                    <div class="error-text">
+                        Potrebno je ime
+                    </div>
+                </div>
+                
+                </div>
+                <div class="input">
+                    <div>
+                    <label>Broj putnika</label>
+                    <input type="text" placeholder="Upišite broj putnika" id="brojosoba">
+                    <div class="error-text">
+                        Potreban je broj osoba
+                    </div>
+                </div>
+                
+                </div>
+                <div class="two-input">
+                    <div class="two-input-box" >
+                        <div>
+                            <label>Datum polaska</label>
+                            <input type="text" required placeholder="Odaberi" id="date1">
+                            <div class="error-text">
+                                Potreban je datum
+                            </div>
+                        </div>
+                        <img src="assets/img/Calendar.svg" alt="">
+                    </div>
+                    <div class="two-input-box" >
+                        <div>
+                            <label>Datum povratka</label>
+                            <input type="text" required placeholder="Odaberi" id="date2">
+                            <div class="error-text">
+                                Potreban je datum
+                            </div>
+                        </div>
+                        <img src="assets/img/Calendar.svg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="input">
+                    <div>
+                    <label>Tip vozila</label>
+                    <input type="text" class="tip-vozila" placeholder="Upišite tip vozila" id="tipvozila">
+                    <div class="error-text">
+                        Potreban je tip vozila
+                    </div>
+                </div>
+                <span class="arrow"></span>
+                </div>
+                <div class="input">
+                    <div>
+                    <label>Vaš email</label>
+                    <input type="text" placeholder="Upišite email" id="email">
+                    <div class="error-text">
+                        Potreban je email
+                    </div>
+                </div>
+                
+                </div>
+                <div class="input">
+                    <div>
+                    <label>Mjesto polaska</label>
+                    <input type="text" placeholder="Upišite mjesto polaska" id="mjestopolaska">
+                    <div class="error-text">
+                        Potrebno je mjesto polaska
+                    </div>
+                </div>
+                <span class="arrow"></span>
+                </div>
+                <div class="prituzba-box-input-2">
+                    <label>Destinacija</label>
+                    <textarea placeholder="Napišite vašu napomenu" id="text1"></textarea>
+                </div>
+                <div class="prituzba-box-input-2">
+                    <label>Ostale napomene</label>
+                    <textarea placeholder="Napišite vašu napomenu" id="text2"></textarea>
+                </div>
+            </div>
+            <div class="button-div">
+                <button class="upit-button">Pošalji upit</button>
+            </div>
+            <div class="close-lng-v">
+            </div>
+            </div>
+            
+    </div>
+    </div>
+    <nav >
+        
+            <div class="navbar">
+        <div class="menu">
+            <div class="menu-line"></div>
+        </div>
+        <div class="logo" onClick="location.href='index.html'">
+            <img src="assets/img/logo.svg" alt="">
+ 
+        </div>
+        <div class="menu-placeholder"></div>
+        <div class="nav-right">
+            <div class="pbold" onClick="location.href='Izlet.html'">Jednodnevni izlet</div>
+            <div class="pbold" onClick="location.href='adventi.html'">Adventi</div>
+            <div class="pbold" onClick="location.href='najam_vozila.html'">Najam vozila</div>
+            <div class="pbold " onClick="location.href='kontakt.html'">Kontakt</div>
+            <div class="lng lng-desktop"> <img src="assets/img/Language.svg" alt="">HR </div>
+        </div>
+    </div>
+    <div class="maxw container grid">
+    <div class="menu-mobile">
+        <div class="menu-text" onClick="location.href='izlet.html'">Jednodnevni izleti</div>
+        <div class="menu-text" onClick="location.href='adventi.html'">Adventi</div>
+        <div class="menu-text" onClick="location.href='vozila.html'"><u class="underline-menu">Najam vozila</u></div>
+        <div class="menu-text" onClick="location.href='kontakt.html'">Kontakt</div>
+        <div class="lng"><img src="assets/img/Language.svg" alt=""> HR</div>
+        <div class="lng-mobile">
+            <div class="lng-mobile-text"> <img src="assets/img/Chevron Down.svg" alt="">
+                Odaberite jezik</div>
+            <button class="lng-mobile-button">English</button>
+                <button class="lng-mobile-button">Hrvatski</button>
+        </div>
+    </div>
+    </div>
+    </nav>
+<section class="naslov">
+    <div class="maxw container grid">
+        <h1>Imaš svoj đir?
+            <u class="u-naslov">unajmi vozilo</u></h1>
+        <div class="pspread">Maecenas maximus accumsan venenatis. Praesent libero odio, rutrum vitae nunc ac, convallis interdum sem. Aenean tempus lacus purus, quis alite ac ligula molestie hendrerit.</div>
+    <div class="naslov-img-1">
+        <div class="naslov-img-1-holder">
+            <picture>
+                <img src="assets/img/Bus 2.png" alt="">
+            </picture>
+        </div>
+        <div class="naslov-img-2">
+            <div class="naslov-img-2-holder">
+                <picture>
+                    <img src="assets/img/Car 1.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</section>
+<section >
+    <div class="maxw grid container">
+        <div class="front-car">
+            <h3>10 Autobusa</h3>
+            <div class="plarge">Do 55 putnika</div>
+            <h3>3 kombija</h3>
+            <div class="plarge">Do 12 putnika</div>
+            <h3>6 automobila</h3>
+            <div class="plarge">Do 5 putnika</div>
+        </div>
+        <div class="front-car-img">
+            <div class="front-car-img-holder">
+                <picture>
+                    <img src="assets/img/BusFront 1.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="vozni-park">
+    <div class="container grid maxw">
+        <h2>Naš <u class="u-naslov">vozni park</u></h2>
+        <div class="vozni-park-element">
+            <div>
+                <img src="assets/img/Bus 2.png" alt="">
+                <div>
+                    <h4>Mazda 3</h4>
+                    <div class="psmall">Osobno vozilo (do 5 putnika)</div>
+                </div>
+            </div>
+            <button enabled class="back-vozilo">Odaberi</button>
+        </div>
+        
+        <div class="vozni-park-element">
+            <div>
+                <img src="assets/img/Bus 2.png" alt="">
+                <div>
+                    <h4>Citroen Jumper</h4>
+                    <div class="psmall">Kombi (do 12 osoba)</div>
+                </div>
+            </div>
+            <button enabled class="back-vozilo">Odaberi</button>
+        </div>
+        <div class="vozni-park-element">
+            <div>
+                <img src="assets/img/Bus 2.png" alt="">
+                <div>
+                    <h4>Setra 411 + vozač</h4>
+                    <div class="psmall">Autobus (do 45 osoba)</div>
+                </div>
+            </div>
+            <button enabled class="back-vozilo">Odaberi</button>
+        </div>
+        
+    </div>
+</section>
+<section class="pouzdanost">
+    <div class="maxw container grid">
+        <h2>Fleksibilnost i <u class="u-naslov">pouzdanost</u></h2>
+        <div class="pouzdanost-large">
+            <div class="pouzdanost-large-holder">
+                <picture>
+                    <img src="assets/img/Road.png" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="pouzdanost-small">
+            <div class="pouzdanost-small-holder">
+                <picture>
+                    <img src="assets/img/Bratislava.png" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="plarge">
+            <div class="pouzdanost-desktop">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut tincidunt neque. Aliquam ac pellentesque sapien. Sed vitae nunc vitae augue laoreet lacinia vitae sit amet turpis. Maecenas suscipit lacinia felis vitae fringilla. Proin hendrerit, mi eget euismod semper, tortor libero efficitur libero. 
+<br><br>
+Id faucibus augue eros sit amet eros. Vivamus lacus arcu, varius eu rutrum ac, tristique ac nisi. In facilisis dui eu nisi facilisis iaculis. Nulla in lorem mi. In posuere sapien ut dui iaculis consequat ut et elit. Vivamus viverra mi vitae lorem congue, vitae dapibus tellus luctus.
+<br><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut tincidunt neque. Aliquam ac pellentesque sapien. Sed vitae nunc vitae augue laoreet lacinia vitae sit amet turpis. Maecenas suscipit lacinia felis vitae fringilla. Proin hendrerit, mi eget euismod semper, tortor libero efficitur libero. 
+</div>
+<div class="pouzdanost-mobile">Maecenas maximus accumsan venenatis. Praesent libero odio, rutrum vitae nunc ac, convallis interdum sem. Aenean tempus lacus purus, quis alite ac ligula molestie hendrerit.</div>
+</div>
+        <div class="pouzdanost-mobile"></div>
+        <div class="pouzdanost-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut tincidunt neque. Aliquam ac </div>
+    </div>
+</section>
+<section class="ponuda">
+<div class="grid maxw container">
+<h3>Što nudimo?</h3>
+<div class="first">
+    <img src="assets/img/vozac 1.png" alt="">
+    <div>
+        <h5>Opcija vozač</h5>
+        <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+    </div>
+</div>
+<div>
+    <img src="assets/img/vozac 3.png" alt="">
+    <div>
+        <h5>Osigurana vozila</h5>
+        <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </div>
+    </div>
+</div>
+<div class="first">
+    <img src="assets/img/Vodic.png" alt="">
+    <div>
+        <h5>Mogučnost vodića</h5>
+        <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+    </div>
+</div>
+<div>
+    <img src="assets/img/vozac 2.png" alt="">
+    <div>
+        <h5>Fleksibilne cijene</h5>
+        <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+    </div>
+</div>
+</div>
+</section>
+<section>
+    <div class="maxw container grid">
+    <div class="two-img" onClick="location.href='izlet.html'">
+        <div class="two-img-holder">
+            <picture>
+                <img src="assets/img/Krka.png" alt="">
+            </picture>
+            <picture>
+                <img src="assets/img/Gradient Tint Overlay.png" alt="">
+            </picture>
+        </div>
+        <div class="text">Jednodnevni izleti</div>
+    </div>
+    <div class="two-img" onClick="location.href='adventi.html'">
+        <div class="two-img-holder">
+            <picture>
+                <img src="assets/img/Advent.png" alt="">
+            </picture>
+            <picture>
+                <img src="assets/img/Gradient Tint Overlay.png" alt="">
+            </picture>
+        </div>
+        <div class="text">Advent</div>
+    </div>
+    </div>
+
+</section>
+<section class="istrazi">
+    <div class="maxw container grid">
+    <div class="istrazi-img" >
+        <div class="istrazi-img-center" >
+            <div class="istrazi-img-holder">
+                <picture>
+                    <img src="assets/img/Mehanic.png" alt="">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="istrazi-text">
+        
+        <h2>Dijagnostika i <u class="u-naslov underline-dij ">servis</u> gospodarskih vozila</h2>
+        <div class="pspread">Maecenas maximus accumsan venenatis. Praesent libero odio, rutrum vitae nunc ac, convallis interdum sem. Aenean tempus lacus purus, quis aliquet ex pharetra ut. Donec posuere accumsan varius.</div>
+        <button enabled onClick="location.href='servis.html'">Istraži</button>
+    </div>
+</div>
+</section>
+<footer>
+    <div class="maxw container grid">
+    <div class="footer-top">
+        <h6>+385 91 153 6542 <br>
+        info@cagalj-tours.hr</h6>
+    </div>
+    
+        <div class="footer-middle">
+            <div class="pbold">Radno vrijeme</div>
+            <div class="psmall">
+                Pon-Pet: 9.00-16.00 <br>
+                Vrisovci 13, 21310 Omiš <br>
+                Republika Hrvatska</div>
+                <img src="assets/img/UHPA.svg" class="UHPA">
+        </div>
+        <div class="footer-middle">
+            <div class="pbold">Usluge</div>
+            <div class="psmall vlinks">
+                <u onClick="location.href='izlet.html'">Jednodnevni izleti</u> <br> 
+                <u onClick="location.href='jednodnevni.html'">adrenalinski izleti</u>  <br>
+                <u onClick="location.href='adventi.html'">advent</u>  <br>
+                <u onClick="location.href='vozila.html'"> Najam vozila</u>  <br>
+                <u onClick="location.href='servis.html'">Servis gospodarskih vozila</u> </div>
+        </div>
+        <div class="footer-middle">
+            <div class="pbold ">Informacije</div>
+            <div class="psmall vlinks">
+                <u onClick="location.href='faq.html'">Česta pitanja</u> <br><u onClick="location.href='onama.html'">O nama</u> <br><u onClick="location.href='prigovor.html'">Pisani prigovor</u> <br><u onClick="location.href='informacije.html'">Pravilnik privatnosti</u> <br><u onClick="location.href='informacije.html'">Pravne informacije</u>  </div>
+        </div>
+        <div class="footer-middle">
+            <div class="pbold">Prati nas</div>
+            <div class="socials">
+                <img src="assets/img/Facebook.svg" alt="" onClick="location.href='https://www.Facebook.com/'">
+                <img src="assets/img/Instagram.svg" alt="" onClick="location.href='https://www.Instagram.com/'">
+                <img src="assets/img/Youtube.svg" alt="" onClick="location.href='https://www.Youtube.com/'">
+            </div>
+        </div>
+        
+    
+    <div class="footer-bottom">
+        <div class="psmall"> © 2023 Čagalj tours d.o.o. |  Putnička agencija Cencena</div>
+        <img src="assets/img/Pragmatic.svg" alt="">
+    </div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  
+    <script src="js/vozila.js"></script>
+    <script>
+        flatpickr("#date1", {});
+        flatpickr("#date2", {});
+    </script>
+</body>
+</html>

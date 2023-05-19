@@ -1,0 +1,1023 @@
+nav { /* Safari */
+  transition: background-color 0.2s ease-in;
+}
+
+.menu-active {
+  background-color: #FFFFFF !important;
+}
+
+.naslov {
+  overflow: hidden;
+  padding-top: 264px;
+  padding-bottom: 189px;
+  z-index: -1;
+  background-color: #F8F8F8;
+}
+.naslov h1 {
+  grid-column: span 6;
+}
+.naslov .pspread {
+  grid-column: 8/13;
+  margin-top: 8px;
+}
+
+.u-naslov {
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+.u-naslov::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  background: #FC6536;
+  z-index: -1;
+  width: 100%;
+  top: 100%;
+  margin-top: -19px;
+}
+
+.naslov-img-1 {
+  position: relative;
+  grid-column: span 12;
+  margin-top: 120px;
+}
+
+.naslov-img-1-holder {
+  padding-top: 29.7%;
+}
+
+.naslov-img-2 {
+  position: absolute;
+  width: 44.59%;
+  right: -62px;
+  bottom: -93px;
+}
+
+.naslov-img-2-holder {
+  padding-top: 49.73%;
+}
+
+.front-car-img {
+  margin-top: 120px;
+  position: relative;
+  grid-column: span 9;
+  margin-left: 70px;
+}
+
+.front-car {
+  grid-column: span 3;
+  margin-top: 104px;
+}
+.front-car h3 {
+  margin-top: 56px;
+}
+.front-car .plarge {
+  color: #626262;
+}
+
+.front-car-img-holder {
+  padding-top: 77.27%;
+}
+
+.vozni-park {
+  margin-top: 160px;
+}
+.vozni-park h2 {
+  grid-column: span 12;
+  margin-bottom: 24px;
+}
+.vozni-park .u-naslov::before {
+  margin-top: -15px;
+}
+
+.vozni-park-element {
+  margin-top: 24px;
+  grid-column: span 12;
+  background-color: #F8F8F8;
+  border-radius: 16px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 40px;
+  justify-content: space-between;
+  align-items: center;
+  height: 136px;
+}
+.vozni-park-element .psmall {
+  color: #626262;
+}
+.vozni-park-element img {
+  width: auto;
+  height: 71px;
+  margin-right: 72px;
+  transform: scaleX(-1);
+}
+.vozni-park-element div {
+  display: flex;
+  align-items: center;
+}
+.vozni-park-element div div {
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.vozni-park-element button {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.pouzdanost {
+  margin-top: 240px;
+}
+.pouzdanost .u-naslov::before {
+  margin-top: -15px;
+}
+.pouzdanost h2 {
+  grid-column: span 12;
+  margin-bottom: 64px;
+}
+.pouzdanost .plarge {
+  color: #626262;
+  grid-column: 2/span 6;
+  margin-top: 80px;
+}
+.pouzdanost img {
+  border-radius: 16px;
+}
+
+.pouzdanost-mobile {
+  display: none;
+}
+
+.pouzdanost-large {
+  grid-column: span 8;
+  position: relative;
+}
+
+.pouzdanost-large-holder {
+  padding-top: 62.85%;
+}
+
+.pouzdanost-small {
+  grid-column: span 4;
+  position: relative;
+}
+
+.pouzdanost-small-holder {
+  padding-top: 132%;
+}
+
+.pouzdanost-text {
+  grid-column: span 4;
+  color: #626262;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 80px;
+}
+
+.ponuda {
+  margin-top: 240px;
+  margin-bottom: 256px;
+}
+.ponuda h3 {
+  text-align: center;
+  grid-column: span 12;
+  margin-bottom: 8px;
+}
+.ponuda div div {
+  background-color: #F8F8F8;
+  border-radius: 16px;
+  grid-column: span 5;
+  margin-top: 40px;
+  padding: 16px;
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  align-items: center;
+}
+.ponuda div div div {
+  margin-top: 0;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 8px;
+  padding: 0;
+}
+.ponuda div .first {
+  grid-column: 2/span 5;
+}
+.ponuda img {
+  height: 72px;
+  width: auto;
+}
+
+.two-img {
+  grid-column: span 6;
+  position: relative;
+}
+
+.two-img-holder {
+  padding-top: 73.06%;
+}
+.two-img-holder picture {
+  overflow: hidden;
+  border-radius: 16px;
+}
+.two-img-holder picture img {
+  transition: 1s;
+  transform: scale(1);
+}
+
+.two-img:hover picture img {
+  transform: scale(1.1);
+}
+.two-img:hover .text {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.text {
+  position: absolute;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  left: 56px;
+  margin-top: -80px;
+  z-index: 2;
+  color: #FFFFFF;
+}
+
+.istrazi {
+  margin-top: 240px;
+}
+
+.istrazi-img {
+  grid-column: span 6;
+  display: flex;
+  align-items: center;
+}
+
+.istrazi-img-center {
+  position: relative;
+  width: 100%;
+}
+
+.istrazi-img-holder {
+  padding-top: 122.58%;
+}
+.istrazi-img-holder img {
+  border-radius: 16px;
+}
+
+.istrazi-text {
+  grid-column: 8/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.istrazi-text .pspread {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.underline-dij::before {
+  height: 16px;
+  top: 100%;
+  margin-top: -18px;
+  width: 100%;
+}
+
+.close-lng-v {
+  right: 16px;
+  top: 16px;
+  position: absolute;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #F8F8F8;
+  border-radius: 100%;
+}
+.close-lng-v img {
+  height: 16px;
+}
+
+.close-lng-v::before, .close-lng-v::after {
+  margin-left: 0 !important;
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 1.5px;
+  background-color: #0F141E;
+  transition: all 0.5s ease-in-out;
+}
+
+.close-lng-v::before {
+  transform: translateY(-5px);
+  transform: rotate(45deg);
+}
+
+.close-lng-v::after {
+  transform: translateY(5px);
+  transform: rotate(-45deg);
+}
+
+.vozila-popup {
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  align-items: center;
+  position: fixed;
+  z-index: 11;
+}
+.vozila-popup .maxw-inner {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.vozila-popup .maxw {
+  z-index: 12;
+  width: 510px;
+  margin: auto;
+  display: flex;
+}
+.vozila-popup h4 {
+  margin-top: 48px;
+  padding-left: 48px;
+}
+.vozila-popup .close-lng-v {
+  right: 24px;
+  top: 24px;
+}
+.vozila-popup .pmedium {
+  margin-top: 8px;
+}
+.vozila-popup .radio {
+  display: flex;
+  margin-bottom: 8px;
+  gap: 32px;
+}
+.vozila-popup .radio div {
+  display: flex;
+  align-items: center;
+}
+.vozila-popup .radio label {
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: 8px;
+}
+
+.background-v {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0F141E;
+  opacity: 80%;
+}
+
+input[type=radio] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #626262;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=radio]::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: #FC6536;
+}
+
+input[type=radio]:checked::before {
+  transform: scale(1);
+}
+
+.vozila-input {
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  width: 414px;
+  height: 480px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.button-div {
+  width: 100%;
+  height: 120px;
+  background-color: #FFFFFF;
+  box-shadow: 0px -7px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-div button {
+  width: 446px;
+}
+
+.flatpickr-calendar {
+  font-family: "Manrope";
+}
+.flatpickr-calendar .selected {
+  background: #FC6536 !important;
+  border-color: #FC6536 !important;
+}
+
+.two-input {
+  display: flex;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+}
+.two-input input {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.two-input-box {
+  display: flex;
+  width: 50%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+  justify-content: space-between;
+  border-left: #FFFFFF solid 1px;
+}
+.two-input-box div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 16px;
+}
+.two-input-box div .error-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  top: calc(100% + 8px);
+  /* Primary/Orange */
+  position: absolute;
+  width: auto;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #FC6536;
+}
+.two-input-box div[error] .error-text {
+  display: flex;
+  left: -16px;
+}
+.two-input-box div[error] label {
+  color: #FC6536;
+}
+.two-input-box div[error] input::-moz-placeholder {
+  color: #FC6536;
+  opacity: 1;
+}
+.two-input-box div[error] input::placeholder {
+  color: #FC6536;
+  opacity: 1;
+}
+.two-input-box div:first-of-type {
+  border-left: none;
+}
+.two-input-box img {
+  margin-right: 16px;
+}
+.two-input-box input::-moz-placeholder {
+  color: #626262;
+}
+.two-input-box input::placeholder {
+  color: #626262;
+}
+
+.two-input-box:first-of-type {
+  border-left: none;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+  opacity: 0.5;
+}
+
+input::placeholder, textarea::placeholder {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+  opacity: 0.5;
+}
+
+input, textarea {
+  border: 0px;
+  padding: 0;
+  background-color: #F8F8F8;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.prituzba-box-input-2 {
+  padding-left: 16px;
+  padding-top: 16px;
+  display: flex;
+  height: px;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #F8F8F8;
+}
+.prituzba-box-input-2 label {
+  padding: 0;
+  color: #0F141E;
+}
+.prituzba-box-input-2 textarea {
+  color: #0F141E;
+  height: 52px;
+  resize: vertical;
+  margin: 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+}
+.prituzba-box-input-2 textarea::-moz-placeholder {
+  opacity: 0.2;
+}
+.prituzba-box-input-2 textarea::placeholder {
+  opacity: 0.2;
+}
+
+.prituzba-box-input-2:last-of-type {
+  margin-bottom: 24px;
+}
+
+label {
+  z-index: 2;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  color: #626262;
+  opacity: 0.8;
+}
+
+.arrow::before,
+.arrow::after {
+  content: "";
+  display: block;
+  width: 16px;
+  border-radius: 50px;
+  height: 2px;
+  background: #0F141E;
+  transition: 0.3s ease-in-out;
+}
+
+.arrow::before {
+  transform: rotate(45deg);
+}
+
+.arrow::after {
+  margin-top: -2px;
+  margin-left: 10px;
+  transform: rotate(-45deg);
+}
+
+.input {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.input label {
+  margin-left: 16px;
+  color: #0F141E;
+}
+.input input {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 16px;
+  height: 24px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+}
+.input div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.input div .error-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  top: calc(100% + 8px);
+  /* Primary/Orange */
+  position: absolute;
+  width: auto;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #FC6536;
+}
+.input div[error] .error-text {
+  display: flex;
+}
+.input div[error] label {
+  color: #FC6536;
+}
+.input div[error] input::-moz-placeholder {
+  color: #FC6536;
+  opacity: 1;
+}
+.input div[error] input::placeholder {
+  color: #FC6536;
+  opacity: 1;
+}
+.input span {
+  margin-right: 16px;
+}
+.input .arrow::after {
+  width: 10px;
+}
+.input .arrow::before {
+  width: 10px;
+  margin-left: 3px;
+}
+
+.active-vozila {
+  display: flex;
+}
+
+@media only screen and (max-width: 950px) {
+  .naslov h1 {
+    grid-column: 2/span 10;
+  }
+  .naslov .pspread {
+    grid-column: 2/span 10;
+  }
+  .two-img {
+    grid-column: 2/span 10;
+    margin-top: 40px;
+  }
+  .istrazi-img {
+    grid-column: 2/span 10;
+  }
+  .istrazi-text {
+    margin-top: 40px;
+    grid-column: 2/span 10;
+  }
+  .istrazi {
+    margin-top: 104px;
+  }
+  .istrazi-img-holder {
+    padding-top: 70%;
+  }
+  .ponuda div div {
+    grid-column: span 6;
+  }
+  .ponuda div .first {
+    grid-column: span 6;
+  }
+  .pouzdanost {
+    margin-top: 180px;
+  }
+  .pouzdanost .plarge {
+    grid-column: 2/span 10;
+  }
+  .pouzdanost-text {
+    grid-column: 2/span 10;
+  }
+  .front-car {
+    grid-column: span 12;
+  }
+  .front-car-img {
+    grid-column: 2/span 10;
+    margin-top: 40px;
+  }
+  .vozni-park-element {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 200px;
+  }
+  .vozni-park-element button {
+    margin-top: 16px;
+  }
+  .pouzdanost-large {
+    grid-column: 2/span 10;
+  }
+  .pouzdanost-small {
+    grid-column: 2/span 10;
+    margin-top: 24px;
+  }
+  .pouzdanost-small-holder {
+    padding-top: 100%;
+  }
+  .pouzdanost-large-holder {
+    padding-top: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .pouzdanost-large {
+    grid-column: span 12;
+  }
+  .pouzdanost-small {
+    grid-column: span 12;
+    margin-top: 24px;
+  }
+  .pouzdanost {
+    margin-top: 104px;
+  }
+  .pouzdanost .plarge {
+    grid-column: span 12;
+  }
+  .pouzdanost-text {
+    grid-column: span 12;
+  }
+  .naslov {
+    padding-bottom: 104px;
+    padding-top: 180px;
+  }
+  .naslov h1 {
+    grid-column: span 12;
+  }
+  .naslov .pspread {
+    margin-top: 48px;
+    grid-column: span 12;
+  }
+  .naslov-img-1 {
+    margin-top: 64px;
+  }
+  .naslov-img-2 {
+    right: -30px;
+    bottom: -60px;
+  }
+  .two-img {
+    grid-column: span 2;
+  }
+  .bus {
+    grid-column: span 2;
+    height: 580px;
+  }
+  .istrazi-img {
+    grid-column: span 2;
+  }
+  .istrazi-text {
+    margin-top: 40px;
+    grid-column: span 2;
+  }
+  .u-naslov::before {
+    height: 10px;
+    margin-top: -10px;
+  }
+  .vozni-park .u-naslov::before {
+    margin-top: -10px;
+  }
+  .pouzdanost .u-naslov::before {
+    margin-top: -10px;
+  }
+  .ponuda {
+    margin-bottom: 104px;
+    margin-top: 104px;
+  }
+  .ponuda div .first {
+    grid-column: span 12;
+  }
+  .ponuda div div {
+    grid-column: span 12;
+  }
+  .vozni-park-element {
+    height: 288px;
+  }
+  .vozni-park-element img {
+    margin-bottom: 16px;
+  }
+  .vozni-park-element div {
+    flex-direction: column;
+    align-items: start;
+  }
+  .front-car-img {
+    grid-column: span 12;
+    margin-left: 0;
+  }
+  .pouzdanost-mobile {
+    display: block;
+  }
+  .pouzdanost-desktop {
+    display: none;
+  }
+  .vozila-popup {
+    width: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 0px;
+    overflow: hidden;
+    transition: height 1s;
+    align-items: end;
+    position: fixed;
+    z-index: 11;
+  }
+  .vozila-popup .container {
+    padding: 0;
+  }
+  .vozila-popup .maxw-inner {
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .vozila-popup .maxw {
+    width: 100%;
+    margin: 0;
+  }
+  .vozila-popup h4 {
+    margin-top: 24px;
+    padding-left: 24px;
+  }
+  .vozila-popup .close-lng-v {
+    background-color: #FFFFFF;
+  }
+  .vozila-popup .close-lng-v::after {
+    height: 2px;
+    border-radius: 16px;
+  }
+  .vozila-popup .close-lng-v::before {
+    height: 2px;
+    margin-left: -21px !important;
+    border-radius: 16px;
+  }
+  .vozila-popup .vozila-input {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: calc(100% - 48px);
+    height: 488px;
+  }
+  .active-vozila {
+    display: flex;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .naslov-img-1 {
+    margin-top: 0px;
+    position: absolute;
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    left: 0;
+    margin-top: 32px;
+    height: 328px;
+  }
+  .naslov div {
+    position: relative;
+  }
+  .naslov picture img {
+    -o-object-position: left;
+    object-position: left;
+  }
+  .naslov-img-2 {
+    left: 50%;
+    top: -90px;
+    width: 80%;
+  }
+  .naslov-img-1-holder {
+    padding-top: 66.66%;
+  }
+  .two-img-holder {
+    padding-top: 139.44%;
+  }
+  .text {
+    left: 32px;
+    margin-top: 0;
+    bottom: 32px;
+    width: 50%;
+  }
+  .istrazi-img-holder {
+    padding-top: 139.44%;
+  }
+  .istrazi-text .pspread {
+    margin-top: 8px;
+  }
+  .naslov {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+  .front-car {
+    margin-top: 8px;
+  }
+  .front-car h3 {
+    margin-top: 32px;
+  }
+  .front-car-img {
+    width: calc(100% + 48px);
+    margin-left: -24px;
+  }
+  .front-car-img-holder {
+    padding-top: 110.93%;
+  }
+  .vozni-park {
+    margin-top: 104px;
+  }
+  .vozni-park h2 {
+    margin-bottom: 20px;
+  }
+  .vozni-park-element img {
+    margin-bottom: 32px;
+  }
+  .pouzdanost h2 {
+    margin-bottom: 40px;
+  }
+  .pouzdanost .plarge {
+    margin-top: 40px;
+  }
+  .pouzdanost .pouzdanost-text {
+    margin-top: 32px;
+  }
+  .pouzdanost-large-holder, .pouzdanost-small-holder {
+    padding-top: 139.44%;
+  }
+  .ponuda {
+    margin-bottom: 64px;
+  }
+  .ponuda h3 {
+    margin-bottom: 16px;
+  }
+  .ponuda div div {
+    margin-top: 24px;
+  }
+  .button-div {
+    height: 112px;
+  }
+  .button-div button {
+    width: 327px;
+  }
+  .two-input {
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FFFFFF;
+  }
+  .two-input-box {
+    width: 100%;
+    border: 0;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+  }
+}/*# sourceMappingURL=najam_vozila.css.map */

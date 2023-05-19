@@ -1,0 +1,444 @@
+.full-img {
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  height: 976px;
+}
+.full-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+nav { /* Safari */
+  transition: background-color 0.2s ease-in;
+}
+
+.menu-active {
+  background-color: #FFFFFF !important;
+}
+
+.naslov {
+  z-index: 2;
+  margin-top: 264px;
+}
+.naslov div div {
+  grid-column: span 12;
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  background: #FC6536;
+  z-index: -1 !important;
+  width: 100%;
+  top: 100%;
+  margin-top: -20px;
+}
+
+.map-s {
+  margin-top: 160px;
+}
+.map-s h3 {
+  grid-column: 2/span 4;
+  margin-bottom: 24px;
+}
+.map-s div div {
+  margin-top: 48px;
+  grid-column: 2/span 5;
+}
+.map-s .second {
+  grid-column: 7/13;
+}
+.map-s .map {
+  grid-column: 2/span 10;
+  margin-top: 88px;
+  position: relative;
+}
+.map-s .plarge {
+  margin-top: 8px;
+  color: #626262;
+}
+
+.map-holder {
+  padding-top: 44.52%;
+}
+.map-holder img {
+  border-radius: 16px;
+}
+
+.location {
+  margin-top: 13.5px !important;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.location img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.prituzba {
+  margin-top: 140px;
+}
+.prituzba h3 {
+  grid-column: 2/span 10;
+}
+
+.prituzba-box {
+  margin-top: 32px;
+  background-color: #F8F8F8;
+  grid-column: 2/span 10;
+  padding: 48px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  row-gap: 24px;
+}
+.prituzba-box div {
+  display: flex;
+}
+.prituzba-box .psmall {
+  color: #626262;
+  margin-left: 8px;
+}
+.prituzba-box h6 {
+  margin-top: 24px;
+}
+
+.flatpickr-calendar {
+  font-family: "Manrope";
+}
+.flatpickr-calendar .selected {
+  background: #FC6536 !important;
+  border-color: #FC6536 !important;
+}
+
+.prituzba-box-input-1 {
+  grid-gap: 24px;
+}
+.prituzba-box-input-1 div {
+  position: relative;
+  width: calc(50% - 12px);
+  flex-direction: column;
+  padding: 8px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 40px;
+}
+.prituzba-box-input-1 div .error-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  top: calc(100% + 8px);
+  /* Primary/Orange */
+  position: absolute;
+  width: auto;
+  display: none;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #FC6536;
+}
+.prituzba-box-input-1 div[error] {
+  margin-bottom: 8px;
+}
+.prituzba-box-input-1 div[error] .error-text {
+  display: flex;
+}
+.prituzba-box-input-1 div[error] label {
+  color: #FC6536;
+}
+.prituzba-box-input-1 div[error] input::-moz-placeholder {
+  color: #FC6536;
+  opacity: 1;
+}
+.prituzba-box-input-1 div[error] input::placeholder {
+  color: #FC6536;
+  opacity: 1;
+}
+.prituzba-box-input-1 input {
+  height: 24px;
+  width: 100%;
+  z-index: 1;
+  padding: 0px;
+  padding-left: 8px;
+  border: 0px;
+}
+.prituzba-box-input-1 .prituzba-box-dropdown {
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+.prituzba-box-input-1 .prituzba-box-dropdown input::-moz-placeholder {
+  opacity: 0.5;
+}
+.prituzba-box-input-1 .prituzba-box-dropdown input::placeholder {
+  opacity: 0.5;
+}
+
+.arrow::before,
+.arrow::after {
+  content: "";
+  display: block;
+  width: 9px;
+  border-radius: 50px;
+  height: 1.5px;
+  background: #626262;
+  transition: 0.3s ease-in-out;
+}
+
+.arrow::before {
+  transform: rotate(45deg);
+}
+
+.arrow::after {
+  margin-top: -2px;
+  margin-left: 6px;
+  transform: rotate(-45deg);
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+input, textarea {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+  opacity: 0.2;
+}
+
+input::placeholder, textarea::placeholder {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0F141E;
+  opacity: 0.2;
+}
+
+label {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  z-index: 2;
+  padding-left: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  color: #0F141E;
+  opacity: 0.8;
+}
+
+.prituzba-box-input-2 {
+  padding-left: 16px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+.prituzba-box-input-2 label {
+  padding: 0;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  resize: vertical;
+  border: 0px;
+  padding: 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+}
+
+.active img {
+  display: block;
+}
+
+button {
+  margin-top: 8px;
+}
+
+.informacije {
+  margin-top: 140px;
+}
+.informacije div {
+  margin-top: 40px;
+  grid-column: span 3;
+}
+.informacije .first {
+  grid-column: 2/span 3;
+}
+.informacije h3 {
+  grid-column: 2/span 10;
+  margin-bottom: 24px;
+}
+.informacije .info-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0F141E;
+  margin-top: 0;
+}
+.informacije .eyebrow {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.24em;
+  color: #FC6536;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 950px) {
+  .prituzba-box {
+    grid-column: 2/span 10;
+  }
+  .prituzba-box-input-1 {
+    flex-direction: column;
+  }
+  .prituzba-box-input-1 div {
+    width: calc(100% - 16px);
+  }
+  .informacije div {
+    margin-top: 40px;
+    grid-column: span 4;
+  }
+  .informacije .first {
+    grid-column: span 4;
+  }
+  .informacije h3 {
+    grid-column: span 12;
+  }
+  .map-s h3 {
+    grid-column: span 7;
+  }
+  .map-s div div {
+    grid-column: span 6;
+  }
+  .map-s .map {
+    grid-column: span 12;
+  }
+  .location {
+    margin-top: 0px !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .prituzba {
+    margin-top: 72px;
+  }
+  .prituzba h3 {
+    grid-column: span 12;
+  }
+  .naslov {
+    text-align: center;
+  }
+  .naslov br {
+    display: none;
+  }
+  .prituzba-box {
+    grid-column: span 12;
+    padding: 24px;
+  }
+  .informacije div {
+    margin-top: 40px;
+    grid-column: span 12;
+  }
+  .informacije .first {
+    grid-column: span 12;
+  }
+  .map-s {
+    margin-top: 104px;
+  }
+  .map-s h3 {
+    grid-column: span 12;
+    margin-bottom: 8px;
+  }
+  .map-s div div {
+    margin-top: 32px;
+    grid-column: span 12;
+  }
+  .map-s .second {
+    grid-column: span 12;
+  }
+  .map-s .map {
+    grid-column: span 12;
+  }
+  .location {
+    margin-top: 13.5px !important;
+  }
+  .map-holder {
+    padding-top: 100%;
+  }
+  .full-img {
+    height: 800px;
+  }
+  .underline::before {
+    height: 10px;
+    margin-top: -10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .map-s {
+    margin-top: 120px;
+  }
+  .map-s .map {
+    margin-top: 72px;
+  }
+  .prituzba-box {
+    padding-top: 8px;
+  }
+  .prituzba-box h6 {
+    margin-top: 16px;
+  }
+  .map-holder {
+    padding-top: 139.44%;
+  }
+  .informacije {
+    display: none;
+  }
+}/*# sourceMappingURL=kontakt.css.map */

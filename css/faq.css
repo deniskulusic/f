@@ -1,0 +1,180 @@
+.full-img {
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  height: 976px;
+}
+.full-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+nav { /* Safari */
+  transition: background-color 0.2s ease-in;
+}
+
+.menu-active {
+  background-color: #FFFFFF !important;
+}
+
+.naslov {
+  z-index: 2;
+  margin-top: 264px;
+}
+.naslov div div {
+  text-align: center;
+  grid-column: 3/span 8;
+}
+.naslov .plarge {
+  color: #626262;
+  margin-top: 32px;
+}
+
+.underline {
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  background: #FC6536;
+  z-index: -1 !important;
+  width: 100%;
+  top: 100%;
+  margin-top: -20px;
+}
+
+.acordation {
+  z-index: 2;
+  margin-top: 256px;
+}
+.acordation div {
+  row-gap: 104px;
+}
+.acordation div div {
+  grid-column: 3/span 8;
+}
+.acordation .plarge {
+  margin-top: 8px;
+  color: #626262;
+}
+.acordation .pspread {
+  margin-top: 16px;
+  color: #626262;
+}
+
+.pravne_informacije .plarge {
+  margin-top: 16px !important;
+}
+
+.acordation-grid {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 16px !important;
+}
+
+.faq {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #F8F8F8;
+  border-radius: 16px;
+}
+
+.faq-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faq-heading .pbold {
+  padding-right: 10px;
+}
+
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  color: #626262;
+}
+
+.arrow::before,
+.arrow::after {
+  content: "";
+  display: block;
+  width: 16px;
+  border-radius: 50px;
+  height: 2px;
+  background: #0F141E;
+  transition: 0.3s ease-in-out;
+}
+
+.arrow::before {
+  transform: rotate(45deg);
+}
+
+.arrow::after {
+  margin-top: -2px;
+  margin-left: 10px;
+  transform: rotate(-45deg);
+}
+
+.active .arrow::after {
+  transform: rotate(45deg);
+}
+.active .arrow::before {
+  transform: rotate(-45deg);
+}
+.active .faq-content {
+  max-height: 500px;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 950px) {
+  .naslov div div {
+    grid-column: 2/span 10;
+  }
+  .acordation div div {
+    grid-column: 2/span 10;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .full-img {
+    height: 800px;
+  }
+  .underline::before {
+    margin-top: -13px;
+    height: 10px;
+  }
+  .naslov {
+    margin-top: 232px;
+  }
+  .naslov div div {
+    grid-column: span 12;
+  }
+  .naslov .plarge {
+    display: none;
+  }
+  .acordation {
+    margin-top: 170px;
+  }
+  .acordation div {
+    row-gap: 80px;
+  }
+  .acordation div div {
+    grid-column: span 12;
+  }
+  .acordation .plarge {
+    margin-top: 0;
+  }
+  .acordation-grid {
+    margin-top: 32px;
+  }
+}/*# sourceMappingURL=faq.css.map */

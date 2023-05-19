@@ -1,0 +1,780 @@
+$Orange:#FC6536;
+$DarkBlue:#0F141E;
+$White:#FFFFFF;
+$LightOrange:#FFEBD9;
+$MidnightGrey:#6F7785;
+$MiddleGrey:#626262;
+$MediumGrey:#F1F1F1;
+$LightGrey:#F8F8F8;
+.mobile{
+    display: none;
+}
+.inverted{
+    h4{
+        color:$White;
+        
+    }
+    .bus{
+        background-color:  #2C3038;
+    }
+    .inner-title2{
+        color:$White;
+    }
+    .bus-text .plarge {
+        color:$MediumGrey;
+      }
+    h2{
+        color:$White;
+    }
+    h5{
+        color:$White;
+    }
+    .psmall{
+        color:$MediumGrey;
+    }
+    .pspread{
+        color:$MediumGrey;
+    }
+    .pbold{
+        color: $White;
+    }
+    .plarge{
+        color:$MediumGrey;
+    }
+    .paralax{
+            
+        background-color: $DarkBlue;
+    }
+    .adrenalin{
+        h2{
+            color:$White;
+        }
+        .pspread{
+            color:$MediumGrey;
+        }
+    }
+}
+.imgnaslov {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    img{
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+  }
+  .imgnaslov_content {
+    position: absolute;
+    top: 50.9vh;
+    height: 58vh;
+    z-index: 2;
+    width: 100%;
+    h1{
+        color:$White;
+        grid-column: span 6;
+    }
+  }
+
+  .underline-naslov{
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+}
+.underline-naslov::before{
+    content: "";
+  position: absolute;
+  height: 16px;
+  background: $Orange;
+  z-index: -1;
+  width: 100%;
+  margin-top: -20px;
+  top: 100%;
+}
+.parkovi{
+    padding-top: 160px;
+    h2{
+        grid-column: span 12;
+        margin-bottom: 48px;
+
+    }
+    div{
+        div{
+            
+            position: relative;
+            grid-column: span 6;
+        }
+        div:hover{
+            .inner-text{
+                text-decoration: underline;
+                text-decoration-thickness: 3px;
+            }
+        }
+        .inner-title{
+            position: absolute;
+            width: 37%;
+            z-index: 2;
+            left: 56px;
+            bottom: 48px;
+            .plarge{
+                color: $White;
+            }
+            img{
+                filter: brightness(10000%);
+            }
+            }
+            .sto{
+                width: 100%;
+            }
+        
+    }
+}
+
+.parkovi-holder{
+    padding-top:82.56%;
+    picture{
+        overflow: hidden;
+        border-radius: 16px;
+        img{
+            transition: 1s;
+            transform: scale(1);
+            -webkit-transform:scale(1) ;
+        }}
+}
+
+.parkovi-holder:hover{
+    picture{
+        
+        img{
+            transform: scale(1.1);
+            -webkit-transform:scale(1.1) ;
+        }
+    }
+    
+}
+.inner-text{
+    margin-bottom: 4px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.03em;
+color: $White;
+}
+.city{
+    margin-top: 148px;
+    h2{
+        grid-column: span 12;
+        margin-bottom: 48px;
+    }
+    h4{
+        margin-top: 32px;
+        margin-bottom: 16px;
+        width: 75%;
+    }
+    h5{
+        top:32px;
+        left: 32px;
+    }
+    div{
+        div{
+            
+            position: relative;
+            grid-column: span 3;
+        }
+        
+        
+    }
+    
+}
+.description{
+    display: flex;
+    .plarge{
+        padding-top: 0px;
+        color: $MiddleGrey;
+    }
+    img{
+        height: 24px;
+        margin-right: 8px;
+    }
+}
+    .city-holder{
+        padding-top: 157.24%;
+        picture{
+            overflow: hidden;
+            border-radius: 16px;
+            img{
+                transition: 1s;
+                transform: scale(1);
+                -webkit-transform:scale(1) ;
+            }}
+    }
+    .city-holder:hover{
+        picture{
+            
+            img{
+                transform: scale(1.1);
+                -webkit-transform:scale(1.1) ;
+            }
+        }
+    }
+    h5{
+        color:$White;
+        position: absolute;
+    left:56px;
+    top:56px;
+    border-radius: 58px;
+    padding: 8px 16px;
+    background-color: $Orange;
+    z-index: 2;
+    }
+
+    .parkovi2-holder{
+        padding-top: 49.03%;
+        picture{
+            overflow: hidden;
+            border-radius: 16px;
+            img{
+                transition: 1s;
+                transform: scale(1);
+                -webkit-transform:scale(1) ;
+            }}
+    }
+    .parkovi2-holder:hover{
+        picture{
+            
+            img{
+                transform: scale(1.1);
+                -webkit-transform:scale(1.1) ;
+            }
+        }
+    }
+    .adrenalin{
+        padding-top: 240px;
+        margin-bottom: 240px;
+        h2{
+            grid-column: span 7;
+            color:$DarkBlue;
+            z-index: 2;
+        }
+        .pspread{
+            grid-column: span 5;
+            margin-top: 8px;
+            color:$MiddleGrey;
+        }
+        .underline-naslov::before{
+            margin-top: -17px;
+        }
+        .inner-title{
+            position: absolute;
+            width: 37%;
+            z-index: 2;
+            left: 56px;
+            bottom: 48px;
+            .plarge{
+                color: $White;
+            }
+            img{
+                filter: brightness(10000%);
+            }
+            }
+    }
+    .big-img{
+        position: relative;
+        grid-column: span 12;
+        margin-top: 140px;
+    }
+    .big-img-holder{
+        padding-top: 51.29%;
+        picture{
+            overflow: hidden;
+            border-radius: 16px;
+            img{
+                transition: 1s;
+                transform: scale(1);
+                -webkit-transform:scale(1) ;
+            }}
+    }
+    .big-img:hover{
+        .big-img-holder{
+            picture{
+            
+                img{
+                    transform: scale(1.1);
+                    -webkit-transform:scale(1.1) ;
+                }
+            }
+        }
+        .inner-text{
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+        }
+    }
+    .small-img{
+        position: relative;
+        grid-column: span 4;
+        margin-top: 88px;
+        h5{
+            left:32px;
+            top:32px;
+        }
+        h4{
+            margin-top: 32px;
+            margin-bottom: 16px;
+            width: 75%;
+            color:$White;
+        }
+        .plarge{
+            color:$White
+        }
+        .description{
+            img{
+                filter: brightness(10000%);
+            }
+        }
+        
+        
+    }
+    .small-img-holder{
+        padding-top: 114%;
+        position: relative;
+        picture{
+            overflow: hidden;
+            border-radius: 16px;
+            img{
+                transition: 1s;
+                transform: scale(1);
+                -webkit-transform:scale(1) ;
+            }}
+    }
+    .small-img-holder:hover{
+        picture{
+            
+            img{
+                transform: scale(1.1);
+                -webkit-transform:scale(1.1) ;
+            }}
+    }
+    .two-img{
+        grid-column: span 12;
+        position: relative;
+        margin-top: 88px;
+    }
+    .two-img-holder{
+        padding-top: 51.29%;
+        picture{
+            overflow: hidden;
+            border-radius: 16px;
+            img{
+                transition: 1s;
+                transform: scale(1);
+                -webkit-transform:scalee(1) ;
+            }}
+    }
+    .two-img:hover{
+        picture{
+            
+            img{
+                transform: scale(1.1);
+                -webkit-transform:scale(1.1) ;
+            }
+        }
+        .text{
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+        }
+    }
+    .text {
+        position: absolute;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    
+    left: 56px;
+    margin-top:calc(-32px - 48px);
+    z-index: 2;
+    color: $White;
+    }
+    .bus{
+        grid-column: span 12;
+        height: 656px;
+        position: relative; 
+        background-color: $LightGrey;
+        border-radius: 16px;
+        picture {
+            img{
+                object-position: left;
+            }
+          }
+    }
+    
+    .bus-text{
+        position: absolute;
+        left: 56px;
+        bottom: 56px;
+        width: calc(33.83% - 56px);
+        .plarge{
+            margin-bottom: 24px;
+        }
+    }
+    .eyebrow{
+        margin-bottom: 8px;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.24em;
+    color: $Orange;
+    }
+    .inner-title2{
+        margin-bottom: 32px;
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: $DarkBlue;
+    
+    }
+    
+    
+    
+    .bus-img{
+        position: absolute;
+        right: 0;
+        top:24px;
+        width: 62.81%;
+        height: calc(100% - 24px);
+        display: flex;
+        align-items: center;
+    }
+    .bus-img-center{
+    position: relative;
+    width: 100%;
+    }
+    .bus-img-center-holder{
+        padding-top: 50.68%;
+    }
+
+
+    //Paralax
+    .wrapper{
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        perspective: 1px;
+    }
+    .imgnaslov{
+        z-index: -2;
+        transform: translateZ(-3px) scale(4.1);
+        position: sticky;
+        transform-style: flat;
+        height: 100vh;
+        width: 100%;
+        top:0;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+        .tint{
+            position: absolute;
+            top:0;
+            z-index: 10;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }
+    }
+    .imgnaslov_content{
+        transform-style: preserve-3d;
+        z-index: -1;
+        position: absolute;
+        top: 50.9vh;
+        height: 58vh;
+        width: 100%;
+        h1{
+            color:$White;
+            grid-column: span 6;
+        }
+        div{
+            transform: translateZ(-2px) scale(3);
+        }
+        
+    }
+    .paralax{
+        background-color: $White;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    @media only screen and (max-width: 950px) {
+
+        .city {
+            div {
+                row-gap: 20px;
+            div {
+                
+            grid-column: span 6;
+          }}}
+          .parkovi{
+            div{
+                row-gap: 20px;
+                div{
+                    grid-column: span 12;
+                }
+                .inner-title{
+                    width: 80%;
+                }
+            }
+          }
+          .parkovi-holder{
+            padding-top:47%;
+            
+        }
+        .bus{
+            grid-column:span 12;
+            height: 580px;
+        }
+        .bus-text{
+            left: 24px;
+            top: 24px;
+            bottom: auto;
+            width: calc(100% - 48px);
+        }
+        .bus-img{
+            height: 50%;
+            width: 100%;
+            bottom:8px;
+            top: auto;
+        }
+        .bus-img-center-holder{
+            padding-top: 40%;
+        }
+    }
+    @media only screen and (max-width: 750px) {
+        .small-img{
+            grid-column: span 6;
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        
+        .parkovi{
+            padding-top: 104px;
+            h2{
+                margin-bottom:32px;
+            }
+          }
+          .parkovi-holder{
+            padding-top: 80%;
+          }
+          .parkovi2-holder{
+            padding-top: 80%;
+          }
+        .city {
+            margin-top: 104px;
+            h2{
+                margin-bottom: 0px;
+            }
+            h4{
+                margin-top: 16px;
+            }
+            div {
+                row-gap: 50px;
+            div {
+                
+            grid-column: span 12;
+          }}}
+          .city-holder{
+            padding-top: 50%;
+          }
+          .small-img{
+            grid-column: span 12;
+        }
+        .small-img-holder{
+            padding-top: 50%;
+        }
+        .bus{
+            grid-column: span 12;
+            height: 580px;
+        }
+        .two-img-holder{
+            padding-top: 139.44%;
+        }
+        .adrenalin{
+            h2{
+                grid-column: span 12;
+            }
+            .pspread{
+                grid-column: span 12;
+            }
+            .underline-naslov::before{
+                margin-top: -10px;
+            }
+        }
+        .underline-naslov::before{
+            height: 10px;
+            margin-top: -10px;
+        }
+        .adrenalin{
+            padding-top: 104px;
+            margin-top: 104px;
+            margin-bottom: 104px;
+            padding-bottom: 104px;
+            .pspread{
+                margin-top: 16px;
+            }
+        }
+        .big-img{
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        .small-img{
+            margin-top: 40px;
+            h4{
+                margin-top: 16px;
+            }
+        }
+        .big-img-holder{
+            padding-top: 80%;
+        }
+        
+    }
+    @media only screen and (max-width: 450px) {
+        .mobile{
+            display: flex;
+
+        }
+        .desktop{
+            display:none;
+        }
+        .parkovi{
+            padding-top: 40px;
+            div{
+                row-gap: 24px;
+                .inner-title{
+                    left: 32px;
+                    bottom: 32px;
+                    width: 62%;
+                }
+            }
+            h2{
+                margin-bottom: 16px;
+            }
+            h4{
+                margin-top: 12px;
+                margin-bottom: 4px;
+            }
+        }
+        .parkovi-holder{
+            padding-top: 149.23%;
+        }
+        h5{
+            left: 32px;
+            top:32px;
+
+        }
+        .city{
+            margin-top: 104px;
+            margin-bottom: 64px;
+            div{
+                row-gap: 32px;
+            }
+            h5{
+                left: 24px;
+                top:24px;
+            }
+            h4{
+                margin-top: 12px;
+                margin-bottom: 4px;
+                width: 100%;
+            }
+        }
+        .city-holder{
+            padding-top: 78.28%;
+        }
+        .parkovi2-holder{
+            padding-top: 78.28%;
+        }
+        .parkovi2{
+            div{
+                row-gap: 32px;
+            }
+            h2{
+                margin-bottom: 8px;
+            }
+            h5{
+                left: 24px;
+                top: 24px;
+            }
+        }
+        .adrenalin{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            
+        }
+        .big-img{
+            margin-top: 56px;
+            margin-bottom: 0;
+            h5{
+               left: 32px;
+               top:32px;
+            }
+            .inner-title{
+                left: 32px;
+                bottom: 32px;
+                width: 80%;
+            }
+        }
+        .big-img-holder{
+            padding-top: 149.23%;
+        }
+        .small-img{
+            margin-top: 32px;
+            h5{
+                left: 24px;
+                top:24px;
+             }
+             h4{
+                margin-top: 12px;
+                margin-bottom: 4px;
+             }
+        }
+        .small-img-holder{
+            padding-top: 78.28%;
+        }
+        .bus{
+            height: 544px;
+        }
+        .bus-img{
+            align-items: end;
+        }
+        .bus-img-center-holder{
+            padding-top: 68.5%;
+        }
+        .inner-title2{
+            margin-bottom: 16px;
+        }
+        .two-img{
+            margin-top: 40px;
+        }
+        .text{
+            left: 32px;
+            margin-top: 0;
+            bottom: 32px;
+            width: 50%;
+        }
+        .imgnaslov_content h1 {
+            text-align: center;
+          }
+    }
+    
