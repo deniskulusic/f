@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/general.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/general.css">
     <link rel="stylesheet" type="text/css" href="./css/visednevni_izlet.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <title>Document</title>
@@ -61,26 +62,31 @@
 </div>
 </div>
 <nav >
-    
+    <div class="colors">
+        <div class="orange"></div>
+        <div class="yello"></div>
+        <div class="purple"></div>
+        <div class="blue"></div>
+    </div>
         <div class="navbar">
     <div class="menu">
         <div class="menu-line"></div>
     </div>
-    <div class="logo" onClick="location.href='index.html'"><img src="assets/img/logo.svg" alt="logo"></div>
+    <div class="logo" onClick="location.href='index.html'"><img src="assets/image/logo.svg" alt="logo"></div>
     <div class="menu-placeholder"></div>
     <div class="nav-right">
-        <div class="pbold" onClick="location.href='izlet.html'">Jednodnevni izlet</div>
-            <div class="pbold" onClick="location.href='adventi.html'">Adventi</div>
-            <div class="pbold" onClick="location.href='vozila.html'">Najam vozila</div>
-            <div class="pbold " onClick="location.href='kontakt.html'">Kontakt</div>
+        <div class="pbold" onClick="location.href='izlet.html'">Školska putovanja</div>
+        <div class="pbold" onClick="location.href='adventi.html'">Ostala putovanja</div>
+        <div class="pbold" onClick="location.href='vozila.html'">O nama</div>
+        <div class="pbold " onClick="location.href='kontakt.html'">Kontakt</div>
         <div class="lng lng-desktop"> <img src="assets/img/Language.svg" alt="">HR </div>
     </div>
 </div>
 <div class="maxw container grid">
 <div class="menu-mobile">
-    <div class="menu-text" onClick="location.href='izlet.html'"> Jednodnevni izleti</div>
-    <div class="menu-text" onClick="location.href='adventi.html'"> Adventi</div>
-    <div class="menu-text" onClick="location.href='vozila.html'">Najam vozila</div>
+    <div class="menu-text" onClick="location.href='izlet.html'"> Školska putovanja</div>
+    <div class="menu-text" onClick="location.href='adventi.html'"> Ostala putovanja</div>
+    <div class="menu-text" onClick="location.href='vozila.html'">O nama</div>
     <div class="menu-text" onClick="location.href='kontakt.html'">Kontakt</div>
     <div class="lng"><img src="assets/img/Language.svg" alt=""> HR</div>
     <div class="lng-mobile">
@@ -221,65 +227,46 @@
                     <div class="psmall">Donec at dignissim est, id venenatis</div>
                 </div>
             </div>
-            <div class="raspored full-page-grid">
-                <h4>Opis izleta</h4>
-                <div class="psmall jednodnevni">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.
-<br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.</div>
-            </div>
-            <div class="placanje full-page-grid">
-                <h4>Plaćanje</h4>
-                <div class="psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et nibh ut justo feugiat vestibulum. Maecenas porta elit id tellus dapibus, in convallis augue malesuada. Aenean suscipit erat ac erat egestas, nec mattis nulla consequat.</div>
-            </div>
-            <div class="nositi full-page-grid nositi-grid">
-                <h4>što ponijeti</h4>
-                <div>
-                    <img src="assets/img/power.svg" alt="">
-                    <div class="pmedium">Power Bank</div>
+            <div class="dani full-page-grid">
+               <div class="dani-naslov">Raspored putovanja</div>
+               <div class="dani-grid">
+                <div class="active-slider">
+                    1.dan
                 </div>
                 <div>
-                    <img src="assets/img/Jacket.svg" alt="">
-                    <div class="pmedium">Lagana jakna</div>
+                    2.dan
                 </div>
                 <div>
-                    <img src="assets/img/boot.svg" alt="">
-                    <div class="pmedium">Obuća za pješačenje</div>
+                    3.dan
                 </div>
-                <div>
-                    <img src="assets/img/water.svg" alt="">
-                    <div class="pmedium">Voda</div>
+               </div>
+               <div class="dani-content">
+                <div class="dani-content-element">
+                    <div class="eyebrow">getting started</div>
+                    <div class="dani-head">Upoznajte čari raskošnog Praga</div>
+                    <div class="dani-text">Orci varius natoque penatibus et magnis dis ient montes nascetur ridiculus mus cras eleifend lus sed congue ectetur velit upis faucibus odio eget mus cras volutpat. <br><br>Pellentesque vestibulum fermentum velit non placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia. <br><br> Fusce in eros at lectus mollis pulvinar ullam in auctor mimus consectetur ullamcorper facisis vivamus luctus. <br><br>Placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia.</div>
                 </div>
-                <div>
-                    <img src="assets/img/shirt.svg" alt="">
-                    <div class="pmedium">Odjeća za presvlaku</div>
+                <div class="dani-content-element">
+                    <div class="eyebrow">getting started</div>
+                    <div class="dani-head">Upoznajte čari raskošnog Praga</div>
+                    <div class="dani-text">Orci varius natoque penatibus et magnis dis ient montes nascetur ridiculus mus cras eleifend lus sed congue ectetur velit upis faucibus odio eget mus cras volutpat. <br><br>Pellentesque vestibulum fermentum velit non placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia. <br><br> Fusce in eros at lectus mollis pulvinar ullam in auctor mimus consectetur ullamcorper facisis vivamus luctus. <br><br>Placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia.</div>
                 </div>
-                <div>
-                    <img src="assets/img/passport.svg" alt="">
-                    <div class="pmedium">Putovnica ili osobna</div>
+                <div class="dani-content-element">
+                    <div class="eyebrow">getting started</div>
+                    <div class="dani-head">Upoznajte čari raskošnog Praga</div>
+                    <div class="dani-text">Orci varius natoque penatibus et magnis dis ient montes nascetur ridiculus mus cras eleifend lus sed congue ectetur velit upis faucibus odio eget mus cras volutpat. <br><br>Pellentesque vestibulum fermentum velit non placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia. <br><br> Fusce in eros at lectus mollis pulvinar ullam in auctor mimus consectetur ullamcorper facisis vivamus luctus. <br><br>Placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia.</div>
                 </div>
+                <div class="dani-content-element">
+                    <div class="eyebrow">getting started</div>
+                    <div class="dani-head">Upoznajte čari raskošnog Praga</div>
+                    <div class="dani-text">Orci varius natoque penatibus et magnis dis ient montes nascetur ridiculus mus cras eleifend lus sed congue ectetur velit upis faucibus odio eget mus cras volutpat. <br><br>Pellentesque vestibulum fermentum velit non placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia. <br><br> Fusce in eros at lectus mollis pulvinar ullam in auctor mimus consectetur ullamcorper facisis vivamus luctus. <br><br>Placerat aecenas in hendrerit justo que quis ncus exeget semper semlam atortis velit. Vestibulum ante ipsum primis inucibus orcie luctus et trices posuere cubilia.</div>
+                </div>
+               </div>
+               
             </div>
-            <div class="lokacija full-page-grid">
-                <h4>Lokacija polazišta</h4>
-                <div class="plarge">mjesto okupljanja</div>
-                <div class="map">
-                    <div class="map-holder">
-                        <picture>
-                <img src="assets/img/image 80.png" alt="">
-            </picture>
-            <div class="location">
-                <img src="assets/img/Pin Location.svg" alt="">
-            </div>
-            </div>
-                </div>
-                
-                <div class="map-information">
-                    <div class="pbold">Primjer adresa 27, Omiš</div>
-                    <div class="plarge">Adresa </div>
-                </div>
-                
-                
-                
-            </div>
+           
+            
+            
             <div class="acord full-page-grid">
                 <h4>Često potavljena pitanja</h4>
                 <div class="plarge">Saznaj sva pitanja i uvjete za jednokratan najam vozila</div>
@@ -375,20 +362,34 @@
 
         </div>
     </section>
+    <section class="before-footer">
+        <div class="maxw container">
+            <img src="assets/image/Layer_x0020_1.png" alt="">
+            <img src="assets/image/logo_sigurna-kupnja_2.png" alt="">
+            <img src="assets/image/MC-IDC-864x864-1-655x437.png" alt="">
+            <img src="assets/image/mastercard.5450f163.png" alt="">
+            <img src="assets/image/monri_footer.png" alt="">
+            <img src="assets/image/visa.png" alt="">
+            <img src="assets/image/di.png" alt="">
+            <img src="assets/image/maestro.png" alt="">
+        </div>
+    </section>
     <footer>
         <div class="maxw container grid">
         <div class="footer-top">
-            <h6>+385 91 153 6542 <br>
-            info@cagalj-tours.hr</h6>
+            <h6>+38521344842 <br>
+                desk@f-tours.hr</h6>
         </div>
         
             <div class="footer-middle">
                 <div class="pbold">Radno vrijeme</div>
                 <div class="psmall">
-                    Pon-Pet: 9.00-16.00 <br>
-                    Vrisovci 13, 21310 Omiš <br>
-                    Republika Hrvatska</div>
-                    <img src="assets/img/UHPA.svg" class="UHPA">
+                    Pon-Pet: 9.00-17.00 <br>
+                    Trg Hrvatske bratske zajednice 2  <br>
+                    21000 Split</div>
+                    
+
+
             </div>
             <div class="footer-middle">
                 <div class="pbold">Usluge</div>
@@ -415,12 +416,11 @@
             
         
         <div class="footer-bottom">
-            <div class="psmall"> © 2023 Čagalj tours d.o.o. |  Putnička agencija Cencena</div>
+            <div class="psmall"> © 2023 Destination F-tours tours d.o.o. </div>
             <img src="assets/img/Pragmatic.svg" alt="">
         </div>
     </div>
     </footer>
-    
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="js/jednodnevni_izlet.js"></script>
     <script>
