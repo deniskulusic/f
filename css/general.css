@@ -349,6 +349,8 @@ nav {
 .before-footer div {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
 }
 .before-footer div img {
   height: 44px;
@@ -805,9 +807,6 @@ input[type=checkbox]:checked::before {
 
 @media only screen and (max-width: 950px) {
   .before-footer {
-    display: none;
-  }
-  footer {
     margin-top: 104px;
   }
   .nav-right {
